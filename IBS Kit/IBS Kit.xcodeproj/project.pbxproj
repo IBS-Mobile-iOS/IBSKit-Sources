@@ -123,6 +123,7 @@
 		B4D076B7291EE2B500C793DE /* IBSDevice.Hardware.Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076B6291EE2B500C793DE /* IBSDevice.Hardware.Connectivity.swift */; };
 		B4D076B9291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076B8291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift */; };
 		B4D076BB291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076BA291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift */; };
+		B4D076BE291EE44800C793DE /* IBSLivePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076BD291EE44800C793DE /* IBSLivePreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -247,6 +248,7 @@
 		B4D076B6291EE2B500C793DE /* IBSDevice.Hardware.Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Hardware.Connectivity.swift; sourceTree = "<group>"; };
 		B4D076B8291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Hardware.IMU.swift; sourceTree = "<group>"; };
 		B4D076BA291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Hardware.Network.swift; sourceTree = "<group>"; };
+		B4D076BD291EE44800C793DE /* IBSLivePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSLivePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				B4D075BF291ED86200C793DE /* Device Specification */,
+				B4D076BC291EE43A00C793DE /* Live Preview */,
 			);
 			path = "Development Tools";
 			sourceTree = "<group>";
@@ -595,6 +598,14 @@
 			path = Connectivity;
 			sourceTree = "<group>";
 		};
+		B4D076BC291EE43A00C793DE /* Live Preview */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076BD291EE44800C793DE /* IBSLivePreview.swift */,
+			);
+			path = "Live Preview";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -788,6 +799,7 @@
 				B4D0769B291EDAE000C793DE /* IBSDevice.Device.Name.swift in Sources */,
 				B4D076A8291EDE5400C793DE /* IBSDevice.Specification.swift in Sources */,
 				B4D076A4291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift in Sources */,
+				B4D076BE291EE44800C793DE /* IBSLivePreview.swift in Sources */,
 				B4D07699291EDAD400C793DE /* IBSDevice.Device.Model.swift in Sources */,
 				B4D07686291ED8C200C793DE /* IBSDeviceSpecificationable.swift in Sources */,
 				B4D07690291EDA0900C793DE /* IBSDevice.Device.swift in Sources */,
