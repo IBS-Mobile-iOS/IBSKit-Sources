@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Device Name</key>
+	<string>iPod touch (7th generation)</string>
+	<key>Accelerometer Supported</key>
+	<true/>
+	<key>Gyroscope Supported</key>
+	<true/>
+	<key>Barometer Supported</key>
+	<true/>
+	<key>Magnetometer Supported</key>
+	<true/>
+	<key>iBeacon Supported</key>
+	<true/>
+	<key>Cellular Supported</key>
+	<false/>
+	<key>GPS Supported</key>
+	<false/>
+	<key>Wi-Fi Supported</key>
+	<true/>
+	<key>Bluetooth Supported</key>
+	<true/>
+</dict>
+</plist>

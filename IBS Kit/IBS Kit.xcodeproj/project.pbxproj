@@ -8,8 +8,121 @@
 
 /* Begin PBXBuildFile section */
 		B4D075AE291ED14200C793DE /* IBS_Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D075AD291ED14200C793DE /* IBS_Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4D075B8291ED4B700C793DE /* To-Do List.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B4D075B7291ED4B700C793DE /* To-Do List.rtf */; };
-		B4D075BA291ED52600C793DE /* ATTENTION.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B4D075B9291ED52600C793DE /* ATTENTION.rtf */; };
+		B4D075C4291ED88000C793DE /* iPod9,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075C3291ED88000C793DE /* iPod9,1.plist */; };
+		B4D075E7291ED89200C793DE /* iPhone11,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075C5291ED89100C793DE /* iPhone11,2.plist */; };
+		B4D075E8291ED89200C793DE /* iPhone10,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075C6291ED89100C793DE /* iPhone10,2.plist */; };
+		B4D075E9291ED89200C793DE /* iPhone10,3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075C7291ED89100C793DE /* iPhone10,3.plist */; };
+		B4D075EA291ED89200C793DE /* iPhone13,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075C8291ED89100C793DE /* iPhone13,2.plist */; };
+		B4D075EB291ED89200C793DE /* iPhone12,8.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075C9291ED89100C793DE /* iPhone12,8.plist */; };
+		B4D075EC291ED89200C793DE /* iPhone10,6.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075CA291ED89100C793DE /* iPhone10,6.plist */; };
+		B4D075ED291ED89200C793DE /* iPhone8,4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075CB291ED89100C793DE /* iPhone8,4.plist */; };
+		B4D075EE291ED89200C793DE /* iPhone14,5.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075CC291ED89100C793DE /* iPhone14,5.plist */; };
+		B4D075EF291ED89200C793DE /* iPhone8,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075CD291ED89100C793DE /* iPhone8,1.plist */; };
+		B4D075F0291ED89200C793DE /* iPhone13,4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075CE291ED89100C793DE /* iPhone13,4.plist */; };
+		B4D075F1291ED89200C793DE /* iPhone15,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075CF291ED89100C793DE /* iPhone15,2.plist */; };
+		B4D075F2291ED89200C793DE /* iPhone14,8.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075D0291ED89100C793DE /* iPhone14,8.plist */; };
+		B4D075F3291ED89200C793DE /* iPhone14,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075D1291ED89100C793DE /* iPhone14,2.plist */; };
+		B4D075F4291ED89200C793DE /* iPhone15,3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075D2291ED89100C793DE /* iPhone15,3.plist */; };
+		B4D075F5291ED89200C793DE /* iPhone10,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075D3291ED89100C793DE /* iPhone10,1.plist */; };
+		B4D075F6291ED89200C793DE /* iPhone12,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075D4291ED89100C793DE /* iPhone12,1.plist */; };
+		B4D075F7291ED89200C793DE /* iPhone14,7.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075D5291ED89100C793DE /* iPhone14,7.plist */; };
+		B4D075F8291ED89200C793DE /* iPhone9,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075D6291ED89100C793DE /* iPhone9,1.plist */; };
+		B4D075F9291ED89200C793DE /* iPhone10,5.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075D7291ED89100C793DE /* iPhone10,5.plist */; };
+		B4D075FA291ED89200C793DE /* iPhone9,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075D8291ED89100C793DE /* iPhone9,2.plist */; };
+		B4D075FB291ED89200C793DE /* iPhone8,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075D9291ED89100C793DE /* iPhone8,2.plist */; };
+		B4D075FC291ED89200C793DE /* iPhone11,6.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075DA291ED89100C793DE /* iPhone11,6.plist */; };
+		B4D075FD291ED89200C793DE /* iPhone11,4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075DB291ED89100C793DE /* iPhone11,4.plist */; };
+		B4D075FE291ED89200C793DE /* iPhone9,3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075DC291ED89100C793DE /* iPhone9,3.plist */; };
+		B4D075FF291ED89200C793DE /* iPhone10,4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075DD291ED89100C793DE /* iPhone10,4.plist */; };
+		B4D07600291ED89200C793DE /* iPhone14,4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075DE291ED89100C793DE /* iPhone14,4.plist */; };
+		B4D07601291ED89200C793DE /* iPhone12,3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075DF291ED89100C793DE /* iPhone12,3.plist */; };
+		B4D07602291ED89200C793DE /* iPhone13,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075E0291ED89100C793DE /* iPhone13,1.plist */; };
+		B4D07603291ED89200C793DE /* iPhone11,8.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075E1291ED89200C793DE /* iPhone11,8.plist */; };
+		B4D07604291ED89200C793DE /* iPhone9,4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075E2291ED89200C793DE /* iPhone9,4.plist */; };
+		B4D07605291ED89200C793DE /* iPhone13,3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075E3291ED89200C793DE /* iPhone13,3.plist */; };
+		B4D07606291ED89200C793DE /* iPhone12,5.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075E4291ED89200C793DE /* iPhone12,5.plist */; };
+		B4D07607291ED89200C793DE /* iPhone14,3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075E5291ED89200C793DE /* iPhone14,3.plist */; };
+		B4D07608291ED89200C793DE /* iPhone14,6.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075E6291ED89200C793DE /* iPhone14,6.plist */; };
+		B4D07647291ED8A600C793DE /* iPad13,4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07609291ED8A200C793DE /* iPad13,4.plist */; };
+		B4D07648291ED8A600C793DE /* iPad13,16.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0760A291ED8A200C793DE /* iPad13,16.plist */; };
+		B4D07649291ED8A600C793DE /* iPad13,11.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0760B291ED8A200C793DE /* iPad13,11.plist */; };
+		B4D0764A291ED8A600C793DE /* iPad6,11.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0760C291ED8A200C793DE /* iPad6,11.plist */; };
+		B4D0764B291ED8A600C793DE /* iPad6,4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0760D291ED8A200C793DE /* iPad6,4.plist */; };
+		B4D0764C291ED8A600C793DE /* iPad14,3-B.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0760E291ED8A200C793DE /* iPad14,3-B.plist */; };
+		B4D0764D291ED8A600C793DE /* iPad13,17.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0760F291ED8A200C793DE /* iPad13,17.plist */; };
+		B4D0764E291ED8A600C793DE /* iPad5,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07610291ED8A200C793DE /* iPad5,1.plist */; };
+		B4D0764F291ED8A600C793DE /* iPad11,4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07611291ED8A200C793DE /* iPad11,4.plist */; };
+		B4D07650291ED8A600C793DE /* iPad12,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07612291ED8A200C793DE /* iPad12,1.plist */; };
+		B4D07651291ED8A700C793DE /* iPad5,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07613291ED8A200C793DE /* iPad5,2.plist */; };
+		B4D07652291ED8A700C793DE /* iPad13,18.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07614291ED8A200C793DE /* iPad13,18.plist */; };
+		B4D07653291ED8A700C793DE /* iPad13,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07615291ED8A200C793DE /* iPad13,2.plist */; };
+		B4D07654291ED8A700C793DE /* iPad11,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07616291ED8A200C793DE /* iPad11,1.plist */; };
+		B4D07655291ED8A700C793DE /* iPad7,5.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07617291ED8A200C793DE /* iPad7,5.plist */; };
+		B4D07656291ED8A700C793DE /* iPad7,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07618291ED8A300C793DE /* iPad7,2.plist */; };
+		B4D07657291ED8A700C793DE /* iPad7,6.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07619291ED8A300C793DE /* iPad7,6.plist */; };
+		B4D07658291ED8A700C793DE /* iPad8,4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0761A291ED8A300C793DE /* iPad8,4.plist */; };
+		B4D07659291ED8A700C793DE /* iPad13,6.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0761B291ED8A300C793DE /* iPad13,6.plist */; };
+		B4D0765A291ED8A700C793DE /* iPad7,12.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0761C291ED8A300C793DE /* iPad7,12.plist */; };
+		B4D0765B291ED8A700C793DE /* iPad8,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0761D291ED8A300C793DE /* iPad8,2.plist */; };
+		B4D0765C291ED8A700C793DE /* iPad8,7.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0761E291ED8A300C793DE /* iPad8,7.plist */; };
+		B4D0765D291ED8A700C793DE /* iPad8,6.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0761F291ED8A300C793DE /* iPad8,6.plist */; };
+		B4D0765E291ED8A700C793DE /* iPad8,12.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07620291ED8A300C793DE /* iPad8,12.plist */; };
+		B4D0765F291ED8A700C793DE /* iPad11,3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07621291ED8A300C793DE /* iPad11,3.plist */; };
+		B4D07660291ED8A700C793DE /* iPad6,3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07622291ED8A300C793DE /* iPad6,3.plist */; };
+		B4D07661291ED8A700C793DE /* iPad14,4-A.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07623291ED8A300C793DE /* iPad14,4-A.plist */; };
+		B4D07662291ED8A700C793DE /* iPad13,19.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07624291ED8A300C793DE /* iPad13,19.plist */; };
+		B4D07663291ED8A700C793DE /* iPad5,4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07625291ED8A300C793DE /* iPad5,4.plist */; };
+		B4D07664291ED8A700C793DE /* iPad11,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07626291ED8A400C793DE /* iPad11,2.plist */; };
+		B4D07665291ED8A700C793DE /* iPad8,11.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07627291ED8A400C793DE /* iPad8,11.plist */; };
+		B4D07666291ED8A700C793DE /* iPad13,10.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07628291ED8A400C793DE /* iPad13,10.plist */; };
+		B4D07667291ED8A700C793DE /* iPad11,6.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07629291ED8A400C793DE /* iPad11,6.plist */; };
+		B4D07668291ED8A700C793DE /* iPad8,8.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0762A291ED8A400C793DE /* iPad8,8.plist */; };
+		B4D07669291ED8A700C793DE /* iPad8,9.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0762B291ED8A400C793DE /* iPad8,9.plist */; };
+		B4D0766A291ED8A700C793DE /* iPad6,8.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0762C291ED8A400C793DE /* iPad6,8.plist */; };
+		B4D0766B291ED8A700C793DE /* iPad8,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0762D291ED8A400C793DE /* iPad8,1.plist */; };
+		B4D0766C291ED8A700C793DE /* iPad8,3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0762E291ED8A400C793DE /* iPad8,3.plist */; };
+		B4D0766D291ED8A700C793DE /* iPad14,3-A.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0762F291ED8A400C793DE /* iPad14,3-A.plist */; };
+		B4D0766E291ED8A700C793DE /* iPad14,6-A.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07630291ED8A400C793DE /* iPad14,6-A.plist */; };
+		B4D0766F291ED8A700C793DE /* iPad13,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07631291ED8A400C793DE /* iPad13,1.plist */; };
+		B4D07670291ED8A700C793DE /* iPad8,5.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07632291ED8A500C793DE /* iPad8,5.plist */; };
+		B4D07671291ED8A700C793DE /* iPad8,10.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07633291ED8A500C793DE /* iPad8,10.plist */; };
+		B4D07672291ED8A700C793DE /* iPad12,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07634291ED8A500C793DE /* iPad12,2.plist */; };
+		B4D07673291ED8A700C793DE /* iPad7,11.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07635291ED8A500C793DE /* iPad7,11.plist */; };
+		B4D07674291ED8A700C793DE /* iPad14,6-B.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07636291ED8A500C793DE /* iPad14,6-B.plist */; };
+		B4D07675291ED8A700C793DE /* iPad13,5.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07637291ED8A500C793DE /* iPad13,5.plist */; };
+		B4D07676291ED8A700C793DE /* iPad5,3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07638291ED8A500C793DE /* iPad5,3.plist */; };
+		B4D07677291ED8A700C793DE /* iPad6,12.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07639291ED8A500C793DE /* iPad6,12.plist */; };
+		B4D07678291ED8A700C793DE /* iPad14,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0763A291ED8A500C793DE /* iPad14,1.plist */; };
+		B4D07679291ED8A700C793DE /* iPad7,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0763B291ED8A500C793DE /* iPad7,1.plist */; };
+		B4D0767A291ED8A700C793DE /* iPad14,4-B.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0763C291ED8A500C793DE /* iPad14,4-B.plist */; };
+		B4D0767B291ED8A700C793DE /* iPad14,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0763D291ED8A600C793DE /* iPad14,2.plist */; };
+		B4D0767C291ED8A700C793DE /* iPad7,3.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0763E291ED8A600C793DE /* iPad7,3.plist */; };
+		B4D0767D291ED8A700C793DE /* iPad13,7.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D0763F291ED8A600C793DE /* iPad13,7.plist */; };
+		B4D0767E291ED8A700C793DE /* iPad6,7.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07640291ED8A600C793DE /* iPad6,7.plist */; };
+		B4D0767F291ED8A700C793DE /* iPad14,5-A.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07641291ED8A600C793DE /* iPad14,5-A.plist */; };
+		B4D07680291ED8A700C793DE /* iPad13,8.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07642291ED8A600C793DE /* iPad13,8.plist */; };
+		B4D07681291ED8A700C793DE /* iPad11,7.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07643291ED8A600C793DE /* iPad11,7.plist */; };
+		B4D07682291ED8A700C793DE /* iPad14,5-B.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07644291ED8A600C793DE /* iPad14,5-B.plist */; };
+		B4D07683291ED8A700C793DE /* iPad7,4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07645291ED8A600C793DE /* iPad7,4.plist */; };
+		B4D07684291ED8A700C793DE /* iPad13,9.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D07646291ED8A600C793DE /* iPad13,9.plist */; };
+		B4D07686291ED8C200C793DE /* IBSDeviceSpecificationable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D07685291ED8C200C793DE /* IBSDeviceSpecificationable.swift */; };
+		B4D07688291ED8DA00C793DE /* IBSDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D07687291ED8DA00C793DE /* IBSDevice.swift */; };
+		B4D07690291EDA0900C793DE /* IBSDevice.Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0768F291EDA0900C793DE /* IBSDevice.Device.swift */; };
+		B4D07695291EDABC00C793DE /* IBSDevice.Device.`Type`.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D07694291EDABC00C793DE /* IBSDevice.Device.`Type`.swift */; };
+		B4D07699291EDAD400C793DE /* IBSDevice.Device.Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D07698291EDAD400C793DE /* IBSDevice.Device.Model.swift */; };
+		B4D0769B291EDAE000C793DE /* IBSDevice.Device.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0769A291EDAE000C793DE /* IBSDevice.Device.Name.swift */; };
+		B4D0769D291EDCAE00C793DE /* IBSDevice.OperatingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0769C291EDCAE00C793DE /* IBSDevice.OperatingSystem.swift */; };
+		B4D076A2291EDCF200C793DE /* IBSDevice.OperatingSystem.`Type`.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076A1291EDCF200C793DE /* IBSDevice.OperatingSystem.`Type`.swift */; };
+		B4D076A4291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076A3291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift */; };
+		B4D076A6291EDE0500C793DE /* IBSDevice.OperatingSystem.Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076A5291EDE0500C793DE /* IBSDevice.OperatingSystem.Version.swift */; };
+		B4D076A8291EDE5400C793DE /* IBSDevice.Specification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076A7291EDE5400C793DE /* IBSDevice.Specification.swift */; };
+		B4D076AA291EE12600C793DE /* IBSDevice.Software.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076A9291EE12600C793DE /* IBSDevice.Software.swift */; };
+		B4D076AD291EE15800C793DE /* IBSDevice.Software.Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076AC291EE15800C793DE /* IBSDevice.Software.Type.swift */; };
+		B4D076B0291EE25400C793DE /* IBSDevice.Hardware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076AF291EE25400C793DE /* IBSDevice.Hardware.swift */; };
+		B4D076B5291EE2A500C793DE /* IBSDevice.Hardware.SensorAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076B4291EE2A500C793DE /* IBSDevice.Hardware.SensorAvailability.swift */; };
+		B4D076B7291EE2B500C793DE /* IBSDevice.Hardware.Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076B6291EE2B500C793DE /* IBSDevice.Hardware.Connectivity.swift */; };
+		B4D076B9291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076B8291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift */; };
+		B4D076BB291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076BA291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +132,121 @@
 		B4D075B9291ED52600C793DE /* ATTENTION.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ATTENTION.rtf; sourceTree = "<group>"; };
 		B4D075BC291ED7A300C793DE /* XCFrameworkPreviewBuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = XCFrameworkPreviewBuild.sh; sourceTree = "<group>"; };
 		B4D075BD291ED7D300C793DE /* XCFrameworkReleaseBuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = XCFrameworkReleaseBuild.sh; sourceTree = "<group>"; };
+		B4D075C3291ED88000C793DE /* iPod9,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPod9,1.plist"; sourceTree = "<group>"; };
+		B4D075C5291ED89100C793DE /* iPhone11,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone11,2.plist"; sourceTree = "<group>"; };
+		B4D075C6291ED89100C793DE /* iPhone10,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone10,2.plist"; sourceTree = "<group>"; };
+		B4D075C7291ED89100C793DE /* iPhone10,3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone10,3.plist"; sourceTree = "<group>"; };
+		B4D075C8291ED89100C793DE /* iPhone13,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone13,2.plist"; sourceTree = "<group>"; };
+		B4D075C9291ED89100C793DE /* iPhone12,8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone12,8.plist"; sourceTree = "<group>"; };
+		B4D075CA291ED89100C793DE /* iPhone10,6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone10,6.plist"; sourceTree = "<group>"; };
+		B4D075CB291ED89100C793DE /* iPhone8,4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone8,4.plist"; sourceTree = "<group>"; };
+		B4D075CC291ED89100C793DE /* iPhone14,5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone14,5.plist"; sourceTree = "<group>"; };
+		B4D075CD291ED89100C793DE /* iPhone8,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone8,1.plist"; sourceTree = "<group>"; };
+		B4D075CE291ED89100C793DE /* iPhone13,4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone13,4.plist"; sourceTree = "<group>"; };
+		B4D075CF291ED89100C793DE /* iPhone15,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone15,2.plist"; sourceTree = "<group>"; };
+		B4D075D0291ED89100C793DE /* iPhone14,8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone14,8.plist"; sourceTree = "<group>"; };
+		B4D075D1291ED89100C793DE /* iPhone14,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone14,2.plist"; sourceTree = "<group>"; };
+		B4D075D2291ED89100C793DE /* iPhone15,3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone15,3.plist"; sourceTree = "<group>"; };
+		B4D075D3291ED89100C793DE /* iPhone10,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone10,1.plist"; sourceTree = "<group>"; };
+		B4D075D4291ED89100C793DE /* iPhone12,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone12,1.plist"; sourceTree = "<group>"; };
+		B4D075D5291ED89100C793DE /* iPhone14,7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone14,7.plist"; sourceTree = "<group>"; };
+		B4D075D6291ED89100C793DE /* iPhone9,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone9,1.plist"; sourceTree = "<group>"; };
+		B4D075D7291ED89100C793DE /* iPhone10,5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone10,5.plist"; sourceTree = "<group>"; };
+		B4D075D8291ED89100C793DE /* iPhone9,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone9,2.plist"; sourceTree = "<group>"; };
+		B4D075D9291ED89100C793DE /* iPhone8,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone8,2.plist"; sourceTree = "<group>"; };
+		B4D075DA291ED89100C793DE /* iPhone11,6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone11,6.plist"; sourceTree = "<group>"; };
+		B4D075DB291ED89100C793DE /* iPhone11,4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone11,4.plist"; sourceTree = "<group>"; };
+		B4D075DC291ED89100C793DE /* iPhone9,3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone9,3.plist"; sourceTree = "<group>"; };
+		B4D075DD291ED89100C793DE /* iPhone10,4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone10,4.plist"; sourceTree = "<group>"; };
+		B4D075DE291ED89100C793DE /* iPhone14,4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone14,4.plist"; sourceTree = "<group>"; };
+		B4D075DF291ED89100C793DE /* iPhone12,3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone12,3.plist"; sourceTree = "<group>"; };
+		B4D075E0291ED89100C793DE /* iPhone13,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone13,1.plist"; sourceTree = "<group>"; };
+		B4D075E1291ED89200C793DE /* iPhone11,8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone11,8.plist"; sourceTree = "<group>"; };
+		B4D075E2291ED89200C793DE /* iPhone9,4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone9,4.plist"; sourceTree = "<group>"; };
+		B4D075E3291ED89200C793DE /* iPhone13,3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone13,3.plist"; sourceTree = "<group>"; };
+		B4D075E4291ED89200C793DE /* iPhone12,5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone12,5.plist"; sourceTree = "<group>"; };
+		B4D075E5291ED89200C793DE /* iPhone14,3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone14,3.plist"; sourceTree = "<group>"; };
+		B4D075E6291ED89200C793DE /* iPhone14,6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone14,6.plist"; sourceTree = "<group>"; };
+		B4D07609291ED8A200C793DE /* iPad13,4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,4.plist"; sourceTree = "<group>"; };
+		B4D0760A291ED8A200C793DE /* iPad13,16.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,16.plist"; sourceTree = "<group>"; };
+		B4D0760B291ED8A200C793DE /* iPad13,11.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,11.plist"; sourceTree = "<group>"; };
+		B4D0760C291ED8A200C793DE /* iPad6,11.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad6,11.plist"; sourceTree = "<group>"; };
+		B4D0760D291ED8A200C793DE /* iPad6,4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad6,4.plist"; sourceTree = "<group>"; };
+		B4D0760E291ED8A200C793DE /* iPad14,3-B.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad14,3-B.plist"; sourceTree = "<group>"; };
+		B4D0760F291ED8A200C793DE /* iPad13,17.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,17.plist"; sourceTree = "<group>"; };
+		B4D07610291ED8A200C793DE /* iPad5,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad5,1.plist"; sourceTree = "<group>"; };
+		B4D07611291ED8A200C793DE /* iPad11,4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad11,4.plist"; sourceTree = "<group>"; };
+		B4D07612291ED8A200C793DE /* iPad12,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad12,1.plist"; sourceTree = "<group>"; };
+		B4D07613291ED8A200C793DE /* iPad5,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad5,2.plist"; sourceTree = "<group>"; };
+		B4D07614291ED8A200C793DE /* iPad13,18.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,18.plist"; sourceTree = "<group>"; };
+		B4D07615291ED8A200C793DE /* iPad13,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,2.plist"; sourceTree = "<group>"; };
+		B4D07616291ED8A200C793DE /* iPad11,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad11,1.plist"; sourceTree = "<group>"; };
+		B4D07617291ED8A200C793DE /* iPad7,5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad7,5.plist"; sourceTree = "<group>"; };
+		B4D07618291ED8A300C793DE /* iPad7,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad7,2.plist"; sourceTree = "<group>"; };
+		B4D07619291ED8A300C793DE /* iPad7,6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad7,6.plist"; sourceTree = "<group>"; };
+		B4D0761A291ED8A300C793DE /* iPad8,4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad8,4.plist"; sourceTree = "<group>"; };
+		B4D0761B291ED8A300C793DE /* iPad13,6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,6.plist"; sourceTree = "<group>"; };
+		B4D0761C291ED8A300C793DE /* iPad7,12.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad7,12.plist"; sourceTree = "<group>"; };
+		B4D0761D291ED8A300C793DE /* iPad8,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad8,2.plist"; sourceTree = "<group>"; };
+		B4D0761E291ED8A300C793DE /* iPad8,7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad8,7.plist"; sourceTree = "<group>"; };
+		B4D0761F291ED8A300C793DE /* iPad8,6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad8,6.plist"; sourceTree = "<group>"; };
+		B4D07620291ED8A300C793DE /* iPad8,12.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad8,12.plist"; sourceTree = "<group>"; };
+		B4D07621291ED8A300C793DE /* iPad11,3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad11,3.plist"; sourceTree = "<group>"; };
+		B4D07622291ED8A300C793DE /* iPad6,3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad6,3.plist"; sourceTree = "<group>"; };
+		B4D07623291ED8A300C793DE /* iPad14,4-A.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad14,4-A.plist"; sourceTree = "<group>"; };
+		B4D07624291ED8A300C793DE /* iPad13,19.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,19.plist"; sourceTree = "<group>"; };
+		B4D07625291ED8A300C793DE /* iPad5,4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad5,4.plist"; sourceTree = "<group>"; };
+		B4D07626291ED8A400C793DE /* iPad11,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad11,2.plist"; sourceTree = "<group>"; };
+		B4D07627291ED8A400C793DE /* iPad8,11.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad8,11.plist"; sourceTree = "<group>"; };
+		B4D07628291ED8A400C793DE /* iPad13,10.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,10.plist"; sourceTree = "<group>"; };
+		B4D07629291ED8A400C793DE /* iPad11,6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad11,6.plist"; sourceTree = "<group>"; };
+		B4D0762A291ED8A400C793DE /* iPad8,8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad8,8.plist"; sourceTree = "<group>"; };
+		B4D0762B291ED8A400C793DE /* iPad8,9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad8,9.plist"; sourceTree = "<group>"; };
+		B4D0762C291ED8A400C793DE /* iPad6,8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad6,8.plist"; sourceTree = "<group>"; };
+		B4D0762D291ED8A400C793DE /* iPad8,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad8,1.plist"; sourceTree = "<group>"; };
+		B4D0762E291ED8A400C793DE /* iPad8,3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad8,3.plist"; sourceTree = "<group>"; };
+		B4D0762F291ED8A400C793DE /* iPad14,3-A.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad14,3-A.plist"; sourceTree = "<group>"; };
+		B4D07630291ED8A400C793DE /* iPad14,6-A.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad14,6-A.plist"; sourceTree = "<group>"; };
+		B4D07631291ED8A400C793DE /* iPad13,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,1.plist"; sourceTree = "<group>"; };
+		B4D07632291ED8A500C793DE /* iPad8,5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad8,5.plist"; sourceTree = "<group>"; };
+		B4D07633291ED8A500C793DE /* iPad8,10.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad8,10.plist"; sourceTree = "<group>"; };
+		B4D07634291ED8A500C793DE /* iPad12,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad12,2.plist"; sourceTree = "<group>"; };
+		B4D07635291ED8A500C793DE /* iPad7,11.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad7,11.plist"; sourceTree = "<group>"; };
+		B4D07636291ED8A500C793DE /* iPad14,6-B.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad14,6-B.plist"; sourceTree = "<group>"; };
+		B4D07637291ED8A500C793DE /* iPad13,5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,5.plist"; sourceTree = "<group>"; };
+		B4D07638291ED8A500C793DE /* iPad5,3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad5,3.plist"; sourceTree = "<group>"; };
+		B4D07639291ED8A500C793DE /* iPad6,12.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad6,12.plist"; sourceTree = "<group>"; };
+		B4D0763A291ED8A500C793DE /* iPad14,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad14,1.plist"; sourceTree = "<group>"; };
+		B4D0763B291ED8A500C793DE /* iPad7,1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad7,1.plist"; sourceTree = "<group>"; };
+		B4D0763C291ED8A500C793DE /* iPad14,4-B.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad14,4-B.plist"; sourceTree = "<group>"; };
+		B4D0763D291ED8A600C793DE /* iPad14,2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad14,2.plist"; sourceTree = "<group>"; };
+		B4D0763E291ED8A600C793DE /* iPad7,3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad7,3.plist"; sourceTree = "<group>"; };
+		B4D0763F291ED8A600C793DE /* iPad13,7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,7.plist"; sourceTree = "<group>"; };
+		B4D07640291ED8A600C793DE /* iPad6,7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad6,7.plist"; sourceTree = "<group>"; };
+		B4D07641291ED8A600C793DE /* iPad14,5-A.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad14,5-A.plist"; sourceTree = "<group>"; };
+		B4D07642291ED8A600C793DE /* iPad13,8.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,8.plist"; sourceTree = "<group>"; };
+		B4D07643291ED8A600C793DE /* iPad11,7.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad11,7.plist"; sourceTree = "<group>"; };
+		B4D07644291ED8A600C793DE /* iPad14,5-B.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad14,5-B.plist"; sourceTree = "<group>"; };
+		B4D07645291ED8A600C793DE /* iPad7,4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad7,4.plist"; sourceTree = "<group>"; };
+		B4D07646291ED8A600C793DE /* iPad13,9.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad13,9.plist"; sourceTree = "<group>"; };
+		B4D07685291ED8C200C793DE /* IBSDeviceSpecificationable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDeviceSpecificationable.swift; sourceTree = "<group>"; };
+		B4D07687291ED8DA00C793DE /* IBSDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.swift; sourceTree = "<group>"; };
+		B4D0768F291EDA0900C793DE /* IBSDevice.Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Device.swift; sourceTree = "<group>"; };
+		B4D07694291EDABC00C793DE /* IBSDevice.Device.`Type`.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSDevice.Device.`Type`.swift"; sourceTree = "<group>"; };
+		B4D07698291EDAD400C793DE /* IBSDevice.Device.Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Device.Model.swift; sourceTree = "<group>"; };
+		B4D0769A291EDAE000C793DE /* IBSDevice.Device.Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Device.Name.swift; sourceTree = "<group>"; };
+		B4D0769C291EDCAE00C793DE /* IBSDevice.OperatingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.OperatingSystem.swift; sourceTree = "<group>"; };
+		B4D076A1291EDCF200C793DE /* IBSDevice.OperatingSystem.`Type`.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSDevice.OperatingSystem.`Type`.swift"; sourceTree = "<group>"; };
+		B4D076A3291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.OperatingSystem.Name.swift; sourceTree = "<group>"; };
+		B4D076A5291EDE0500C793DE /* IBSDevice.OperatingSystem.Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.OperatingSystem.Version.swift; sourceTree = "<group>"; };
+		B4D076A7291EDE5400C793DE /* IBSDevice.Specification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Specification.swift; sourceTree = "<group>"; };
+		B4D076A9291EE12600C793DE /* IBSDevice.Software.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Software.swift; sourceTree = "<group>"; };
+		B4D076AC291EE15800C793DE /* IBSDevice.Software.Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Software.Type.swift; sourceTree = "<group>"; };
+		B4D076AF291EE25400C793DE /* IBSDevice.Hardware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Hardware.swift; sourceTree = "<group>"; };
+		B4D076B4291EE2A500C793DE /* IBSDevice.Hardware.SensorAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Hardware.SensorAvailability.swift; sourceTree = "<group>"; };
+		B4D076B6291EE2B500C793DE /* IBSDevice.Hardware.Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Hardware.Connectivity.swift; sourceTree = "<group>"; };
+		B4D076B8291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Hardware.IMU.swift; sourceTree = "<group>"; };
+		B4D076BA291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Hardware.Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +283,7 @@
 				B4D075AD291ED14200C793DE /* IBS_Kit.h */,
 				B4D075B9291ED52600C793DE /* ATTENTION.rtf */,
 				B4D075BB291ED79600C793DE /* XCFramework Build Shell Scripts */,
+				B4D075BE291ED81E00C793DE /* Development Tools */,
 			);
 			path = "IBS Kit";
 			sourceTree = "<group>";
@@ -74,6 +303,296 @@
 				B4D075BD291ED7D300C793DE /* XCFrameworkReleaseBuild.sh */,
 			);
 			path = "XCFramework Build Shell Scripts";
+			sourceTree = "<group>";
+		};
+		B4D075BE291ED81E00C793DE /* Development Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B4D075BF291ED86200C793DE /* Device Specification */,
+			);
+			path = "Development Tools";
+			sourceTree = "<group>";
+		};
+		B4D075BF291ED86200C793DE /* Device Specification */ = {
+			isa = PBXGroup;
+			children = (
+				B4D07689291ED9BB00C793DE /* Extensions */,
+				B4D07685291ED8C200C793DE /* IBSDeviceSpecificationable.swift */,
+				B4D07687291ED8DA00C793DE /* IBSDevice.swift */,
+				B4D075C2291ED86A00C793DE /* iPad */,
+				B4D075C1291ED86800C793DE /* iPhone */,
+				B4D075C0291ED86600C793DE /* iPod touch */,
+			);
+			path = "Device Specification";
+			sourceTree = "<group>";
+		};
+		B4D075C0291ED86600C793DE /* iPod touch */ = {
+			isa = PBXGroup;
+			children = (
+				B4D075C3291ED88000C793DE /* iPod9,1.plist */,
+			);
+			path = "iPod touch";
+			sourceTree = "<group>";
+		};
+		B4D075C1291ED86800C793DE /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				B4D075CD291ED89100C793DE /* iPhone8,1.plist */,
+				B4D075D9291ED89100C793DE /* iPhone8,2.plist */,
+				B4D075CB291ED89100C793DE /* iPhone8,4.plist */,
+				B4D075D6291ED89100C793DE /* iPhone9,1.plist */,
+				B4D075D8291ED89100C793DE /* iPhone9,2.plist */,
+				B4D075DC291ED89100C793DE /* iPhone9,3.plist */,
+				B4D075E2291ED89200C793DE /* iPhone9,4.plist */,
+				B4D075D3291ED89100C793DE /* iPhone10,1.plist */,
+				B4D075C6291ED89100C793DE /* iPhone10,2.plist */,
+				B4D075C7291ED89100C793DE /* iPhone10,3.plist */,
+				B4D075DD291ED89100C793DE /* iPhone10,4.plist */,
+				B4D075D7291ED89100C793DE /* iPhone10,5.plist */,
+				B4D075CA291ED89100C793DE /* iPhone10,6.plist */,
+				B4D075C5291ED89100C793DE /* iPhone11,2.plist */,
+				B4D075DB291ED89100C793DE /* iPhone11,4.plist */,
+				B4D075DA291ED89100C793DE /* iPhone11,6.plist */,
+				B4D075E1291ED89200C793DE /* iPhone11,8.plist */,
+				B4D075D4291ED89100C793DE /* iPhone12,1.plist */,
+				B4D075DF291ED89100C793DE /* iPhone12,3.plist */,
+				B4D075E4291ED89200C793DE /* iPhone12,5.plist */,
+				B4D075C9291ED89100C793DE /* iPhone12,8.plist */,
+				B4D075E0291ED89100C793DE /* iPhone13,1.plist */,
+				B4D075C8291ED89100C793DE /* iPhone13,2.plist */,
+				B4D075E3291ED89200C793DE /* iPhone13,3.plist */,
+				B4D075CE291ED89100C793DE /* iPhone13,4.plist */,
+				B4D075D1291ED89100C793DE /* iPhone14,2.plist */,
+				B4D075E5291ED89200C793DE /* iPhone14,3.plist */,
+				B4D075DE291ED89100C793DE /* iPhone14,4.plist */,
+				B4D075CC291ED89100C793DE /* iPhone14,5.plist */,
+				B4D075E6291ED89200C793DE /* iPhone14,6.plist */,
+				B4D075D5291ED89100C793DE /* iPhone14,7.plist */,
+				B4D075D0291ED89100C793DE /* iPhone14,8.plist */,
+				B4D075CF291ED89100C793DE /* iPhone15,2.plist */,
+				B4D075D2291ED89100C793DE /* iPhone15,3.plist */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		B4D075C2291ED86A00C793DE /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				B4D07610291ED8A200C793DE /* iPad5,1.plist */,
+				B4D07613291ED8A200C793DE /* iPad5,2.plist */,
+				B4D07638291ED8A500C793DE /* iPad5,3.plist */,
+				B4D07625291ED8A300C793DE /* iPad5,4.plist */,
+				B4D07622291ED8A300C793DE /* iPad6,3.plist */,
+				B4D0760D291ED8A200C793DE /* iPad6,4.plist */,
+				B4D07640291ED8A600C793DE /* iPad6,7.plist */,
+				B4D0762C291ED8A400C793DE /* iPad6,8.plist */,
+				B4D0760C291ED8A200C793DE /* iPad6,11.plist */,
+				B4D07639291ED8A500C793DE /* iPad6,12.plist */,
+				B4D0763B291ED8A500C793DE /* iPad7,1.plist */,
+				B4D07618291ED8A300C793DE /* iPad7,2.plist */,
+				B4D0763E291ED8A600C793DE /* iPad7,3.plist */,
+				B4D07645291ED8A600C793DE /* iPad7,4.plist */,
+				B4D07617291ED8A200C793DE /* iPad7,5.plist */,
+				B4D07619291ED8A300C793DE /* iPad7,6.plist */,
+				B4D07635291ED8A500C793DE /* iPad7,11.plist */,
+				B4D0761C291ED8A300C793DE /* iPad7,12.plist */,
+				B4D0762D291ED8A400C793DE /* iPad8,1.plist */,
+				B4D0761D291ED8A300C793DE /* iPad8,2.plist */,
+				B4D0762E291ED8A400C793DE /* iPad8,3.plist */,
+				B4D0761A291ED8A300C793DE /* iPad8,4.plist */,
+				B4D07632291ED8A500C793DE /* iPad8,5.plist */,
+				B4D0761F291ED8A300C793DE /* iPad8,6.plist */,
+				B4D0761E291ED8A300C793DE /* iPad8,7.plist */,
+				B4D0762A291ED8A400C793DE /* iPad8,8.plist */,
+				B4D0762B291ED8A400C793DE /* iPad8,9.plist */,
+				B4D07633291ED8A500C793DE /* iPad8,10.plist */,
+				B4D07627291ED8A400C793DE /* iPad8,11.plist */,
+				B4D07620291ED8A300C793DE /* iPad8,12.plist */,
+				B4D07616291ED8A200C793DE /* iPad11,1.plist */,
+				B4D07626291ED8A400C793DE /* iPad11,2.plist */,
+				B4D07621291ED8A300C793DE /* iPad11,3.plist */,
+				B4D07611291ED8A200C793DE /* iPad11,4.plist */,
+				B4D07629291ED8A400C793DE /* iPad11,6.plist */,
+				B4D07643291ED8A600C793DE /* iPad11,7.plist */,
+				B4D07612291ED8A200C793DE /* iPad12,1.plist */,
+				B4D07634291ED8A500C793DE /* iPad12,2.plist */,
+				B4D07631291ED8A400C793DE /* iPad13,1.plist */,
+				B4D07615291ED8A200C793DE /* iPad13,2.plist */,
+				B4D07609291ED8A200C793DE /* iPad13,4.plist */,
+				B4D07637291ED8A500C793DE /* iPad13,5.plist */,
+				B4D0761B291ED8A300C793DE /* iPad13,6.plist */,
+				B4D0763F291ED8A600C793DE /* iPad13,7.plist */,
+				B4D07642291ED8A600C793DE /* iPad13,8.plist */,
+				B4D07646291ED8A600C793DE /* iPad13,9.plist */,
+				B4D07628291ED8A400C793DE /* iPad13,10.plist */,
+				B4D0760B291ED8A200C793DE /* iPad13,11.plist */,
+				B4D0760A291ED8A200C793DE /* iPad13,16.plist */,
+				B4D0760F291ED8A200C793DE /* iPad13,17.plist */,
+				B4D07614291ED8A200C793DE /* iPad13,18.plist */,
+				B4D07624291ED8A300C793DE /* iPad13,19.plist */,
+				B4D0763A291ED8A500C793DE /* iPad14,1.plist */,
+				B4D0763D291ED8A600C793DE /* iPad14,2.plist */,
+				B4D0762F291ED8A400C793DE /* iPad14,3-A.plist */,
+				B4D0760E291ED8A200C793DE /* iPad14,3-B.plist */,
+				B4D07623291ED8A300C793DE /* iPad14,4-A.plist */,
+				B4D0763C291ED8A500C793DE /* iPad14,4-B.plist */,
+				B4D07641291ED8A600C793DE /* iPad14,5-A.plist */,
+				B4D07644291ED8A600C793DE /* iPad14,5-B.plist */,
+				B4D07630291ED8A400C793DE /* iPad14,6-A.plist */,
+				B4D07636291ED8A500C793DE /* iPad14,6-B.plist */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		B4D07689291ED9BB00C793DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4D0768A291ED9C000C793DE /* Device */,
+				B4D0768B291ED9CB00C793DE /* Operating System */,
+				B4D0768C291ED9D500C793DE /* Software */,
+				B4D0768D291ED9DA00C793DE /* Hardware */,
+				B4D0768E291ED9E200C793DE /* Specification */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4D0768A291ED9C000C793DE /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				B4D07691291EDA6C00C793DE /* Type */,
+				B4D07696291EDAC200C793DE /* Model */,
+				B4D07697291EDAC800C793DE /* Name */,
+				B4D0768F291EDA0900C793DE /* IBSDevice.Device.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		B4D0768B291ED9CB00C793DE /* Operating System */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076A0291EDCD600C793DE /* Type */,
+				B4D0769F291EDCD400C793DE /* Name */,
+				B4D0769E291EDCD200C793DE /* Version */,
+				B4D0769C291EDCAE00C793DE /* IBSDevice.OperatingSystem.swift */,
+			);
+			path = "Operating System";
+			sourceTree = "<group>";
+		};
+		B4D0768C291ED9D500C793DE /* Software */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076AB291EE14D00C793DE /* Type */,
+				B4D076A9291EE12600C793DE /* IBSDevice.Software.swift */,
+			);
+			path = Software;
+			sourceTree = "<group>";
+		};
+		B4D0768D291ED9DA00C793DE /* Hardware */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076AE291EE24A00C793DE /* SensorAvailability */,
+				B4D076B3291EE29100C793DE /* Connectivity */,
+				B4D076B2291EE28900C793DE /* IMU */,
+				B4D076B1291EE28100C793DE /* Network */,
+				B4D076AF291EE25400C793DE /* IBSDevice.Hardware.swift */,
+			);
+			path = Hardware;
+			sourceTree = "<group>";
+		};
+		B4D0768E291ED9E200C793DE /* Specification */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076A7291EDE5400C793DE /* IBSDevice.Specification.swift */,
+			);
+			path = Specification;
+			sourceTree = "<group>";
+		};
+		B4D07691291EDA6C00C793DE /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				B4D07694291EDABC00C793DE /* IBSDevice.Device.`Type`.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		B4D07696291EDAC200C793DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4D07698291EDAD400C793DE /* IBSDevice.Device.Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4D07697291EDAC800C793DE /* Name */ = {
+			isa = PBXGroup;
+			children = (
+				B4D0769A291EDAE000C793DE /* IBSDevice.Device.Name.swift */,
+			);
+			path = Name;
+			sourceTree = "<group>";
+		};
+		B4D0769E291EDCD200C793DE /* Version */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076A5291EDE0500C793DE /* IBSDevice.OperatingSystem.Version.swift */,
+			);
+			path = Version;
+			sourceTree = "<group>";
+		};
+		B4D0769F291EDCD400C793DE /* Name */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076A3291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift */,
+			);
+			path = Name;
+			sourceTree = "<group>";
+		};
+		B4D076A0291EDCD600C793DE /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076A1291EDCF200C793DE /* IBSDevice.OperatingSystem.`Type`.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		B4D076AB291EE14D00C793DE /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076AC291EE15800C793DE /* IBSDevice.Software.Type.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		B4D076AE291EE24A00C793DE /* SensorAvailability */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076B4291EE2A500C793DE /* IBSDevice.Hardware.SensorAvailability.swift */,
+			);
+			path = SensorAvailability;
+			sourceTree = "<group>";
+		};
+		B4D076B1291EE28100C793DE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076BA291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B4D076B2291EE28900C793DE /* IMU */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076B8291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift */,
+			);
+			path = IMU;
+			sourceTree = "<group>";
+		};
+		B4D076B3291EE29100C793DE /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076B6291EE2B500C793DE /* IBSDevice.Hardware.Connectivity.swift */,
+			);
+			path = Connectivity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +640,7 @@
 				TargetAttributes = {
 					B4D075A9291ED14200C793DE = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 				};
 			};
@@ -147,8 +667,103 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4D075B8291ED4B700C793DE /* To-Do List.rtf in Resources */,
-				B4D075BA291ED52600C793DE /* ATTENTION.rtf in Resources */,
+				B4D0767A291ED8A700C793DE /* iPad14,4-B.plist in Resources */,
+				B4D07648291ED8A600C793DE /* iPad13,16.plist in Resources */,
+				B4D07680291ED8A700C793DE /* iPad13,8.plist in Resources */,
+				B4D0765D291ED8A700C793DE /* iPad8,6.plist in Resources */,
+				B4D07600291ED89200C793DE /* iPhone14,4.plist in Resources */,
+				B4D07657291ED8A700C793DE /* iPad7,6.plist in Resources */,
+				B4D075F6291ED89200C793DE /* iPhone12,1.plist in Resources */,
+				B4D0764D291ED8A600C793DE /* iPad13,17.plist in Resources */,
+				B4D07604291ED89200C793DE /* iPhone9,4.plist in Resources */,
+				B4D075F0291ED89200C793DE /* iPhone13,4.plist in Resources */,
+				B4D07649291ED8A600C793DE /* iPad13,11.plist in Resources */,
+				B4D075EE291ED89200C793DE /* iPhone14,5.plist in Resources */,
+				B4D07653291ED8A700C793DE /* iPad13,2.plist in Resources */,
+				B4D07652291ED8A700C793DE /* iPad13,18.plist in Resources */,
+				B4D075FE291ED89200C793DE /* iPhone9,3.plist in Resources */,
+				B4D0766E291ED8A700C793DE /* iPad14,6-A.plist in Resources */,
+				B4D07658291ED8A700C793DE /* iPad8,4.plist in Resources */,
+				B4D075EF291ED89200C793DE /* iPhone8,1.plist in Resources */,
+				B4D075C4291ED88000C793DE /* iPod9,1.plist in Resources */,
+				B4D075F3291ED89200C793DE /* iPhone14,2.plist in Resources */,
+				B4D07666291ED8A700C793DE /* iPad13,10.plist in Resources */,
+				B4D075FC291ED89200C793DE /* iPhone11,6.plist in Resources */,
+				B4D075FD291ED89200C793DE /* iPhone11,4.plist in Resources */,
+				B4D07678291ED8A700C793DE /* iPad14,1.plist in Resources */,
+				B4D0767D291ED8A700C793DE /* iPad13,7.plist in Resources */,
+				B4D07650291ED8A600C793DE /* iPad12,1.plist in Resources */,
+				B4D0765E291ED8A700C793DE /* iPad8,12.plist in Resources */,
+				B4D07681291ED8A700C793DE /* iPad11,7.plist in Resources */,
+				B4D0765B291ED8A700C793DE /* iPad8,2.plist in Resources */,
+				B4D0767E291ED8A700C793DE /* iPad6,7.plist in Resources */,
+				B4D075EA291ED89200C793DE /* iPhone13,2.plist in Resources */,
+				B4D07674291ED8A700C793DE /* iPad14,6-B.plist in Resources */,
+				B4D07656291ED8A700C793DE /* iPad7,2.plist in Resources */,
+				B4D07672291ED8A700C793DE /* iPad12,2.plist in Resources */,
+				B4D07673291ED8A700C793DE /* iPad7,11.plist in Resources */,
+				B4D075F1291ED89200C793DE /* iPhone15,2.plist in Resources */,
+				B4D07667291ED8A700C793DE /* iPad11,6.plist in Resources */,
+				B4D0765A291ED8A700C793DE /* iPad7,12.plist in Resources */,
+				B4D07664291ED8A700C793DE /* iPad11,2.plist in Resources */,
+				B4D07662291ED8A700C793DE /* iPad13,19.plist in Resources */,
+				B4D0766D291ED8A700C793DE /* iPad14,3-A.plist in Resources */,
+				B4D075EB291ED89200C793DE /* iPhone12,8.plist in Resources */,
+				B4D07647291ED8A600C793DE /* iPad13,4.plist in Resources */,
+				B4D075F7291ED89200C793DE /* iPhone14,7.plist in Resources */,
+				B4D075F2291ED89200C793DE /* iPhone14,8.plist in Resources */,
+				B4D0766B291ED8A700C793DE /* iPad8,1.plist in Resources */,
+				B4D07605291ED89200C793DE /* iPhone13,3.plist in Resources */,
+				B4D0764C291ED8A600C793DE /* iPad14,3-B.plist in Resources */,
+				B4D07671291ED8A700C793DE /* iPad8,10.plist in Resources */,
+				B4D07677291ED8A700C793DE /* iPad6,12.plist in Resources */,
+				B4D075E9291ED89200C793DE /* iPhone10,3.plist in Resources */,
+				B4D075ED291ED89200C793DE /* iPhone8,4.plist in Resources */,
+				B4D07679291ED8A700C793DE /* iPad7,1.plist in Resources */,
+				B4D07665291ED8A700C793DE /* iPad8,11.plist in Resources */,
+				B4D0764A291ED8A600C793DE /* iPad6,11.plist in Resources */,
+				B4D07607291ED89200C793DE /* iPhone14,3.plist in Resources */,
+				B4D07608291ED89200C793DE /* iPhone14,6.plist in Resources */,
+				B4D0766A291ED8A700C793DE /* iPad6,8.plist in Resources */,
+				B4D07602291ED89200C793DE /* iPhone13,1.plist in Resources */,
+				B4D0766F291ED8A700C793DE /* iPad13,1.plist in Resources */,
+				B4D07683291ED8A700C793DE /* iPad7,4.plist in Resources */,
+				B4D07668291ED8A700C793DE /* iPad8,8.plist in Resources */,
+				B4D07606291ED89200C793DE /* iPhone12,5.plist in Resources */,
+				B4D0767F291ED8A700C793DE /* iPad14,5-A.plist in Resources */,
+				B4D075F5291ED89200C793DE /* iPhone10,1.plist in Resources */,
+				B4D07603291ED89200C793DE /* iPhone11,8.plist in Resources */,
+				B4D075EC291ED89200C793DE /* iPhone10,6.plist in Resources */,
+				B4D0765C291ED8A700C793DE /* iPad8,7.plist in Resources */,
+				B4D0764F291ED8A600C793DE /* iPad11,4.plist in Resources */,
+				B4D07654291ED8A700C793DE /* iPad11,1.plist in Resources */,
+				B4D075FA291ED89200C793DE /* iPhone9,2.plist in Resources */,
+				B4D075FB291ED89200C793DE /* iPhone8,2.plist in Resources */,
+				B4D075F9291ED89200C793DE /* iPhone10,5.plist in Resources */,
+				B4D075E7291ED89200C793DE /* iPhone11,2.plist in Resources */,
+				B4D075FF291ED89200C793DE /* iPhone10,4.plist in Resources */,
+				B4D0764B291ED8A600C793DE /* iPad6,4.plist in Resources */,
+				B4D0765F291ED8A700C793DE /* iPad11,3.plist in Resources */,
+				B4D075F8291ED89200C793DE /* iPhone9,1.plist in Resources */,
+				B4D075E8291ED89200C793DE /* iPhone10,2.plist in Resources */,
+				B4D0767B291ED8A700C793DE /* iPad14,2.plist in Resources */,
+				B4D07651291ED8A700C793DE /* iPad5,2.plist in Resources */,
+				B4D07684291ED8A700C793DE /* iPad13,9.plist in Resources */,
+				B4D07670291ED8A700C793DE /* iPad8,5.plist in Resources */,
+				B4D075F4291ED89200C793DE /* iPhone15,3.plist in Resources */,
+				B4D07659291ED8A700C793DE /* iPad13,6.plist in Resources */,
+				B4D07663291ED8A700C793DE /* iPad5,4.plist in Resources */,
+				B4D07682291ED8A700C793DE /* iPad14,5-B.plist in Resources */,
+				B4D07661291ED8A700C793DE /* iPad14,4-A.plist in Resources */,
+				B4D0764E291ED8A600C793DE /* iPad5,1.plist in Resources */,
+				B4D07601291ED89200C793DE /* iPhone12,3.plist in Resources */,
+				B4D0767C291ED8A700C793DE /* iPad7,3.plist in Resources */,
+				B4D0766C291ED8A700C793DE /* iPad8,3.plist in Resources */,
+				B4D07660291ED8A700C793DE /* iPad6,3.plist in Resources */,
+				B4D07675291ED8A700C793DE /* iPad13,5.plist in Resources */,
+				B4D07669291ED8A700C793DE /* iPad8,9.plist in Resources */,
+				B4D07655291ED8A700C793DE /* iPad7,5.plist in Resources */,
+				B4D07676291ED8A700C793DE /* iPad5,3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +774,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D076B5291EE2A500C793DE /* IBSDevice.Hardware.SensorAvailability.swift in Sources */,
+				B4D0769D291EDCAE00C793DE /* IBSDevice.OperatingSystem.swift in Sources */,
+				B4D076B0291EE25400C793DE /* IBSDevice.Hardware.swift in Sources */,
+				B4D07688291ED8DA00C793DE /* IBSDevice.swift in Sources */,
+				B4D076B9291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift in Sources */,
+				B4D076AA291EE12600C793DE /* IBSDevice.Software.swift in Sources */,
+				B4D076A6291EDE0500C793DE /* IBSDevice.OperatingSystem.Version.swift in Sources */,
+				B4D07695291EDABC00C793DE /* IBSDevice.Device.`Type`.swift in Sources */,
+				B4D076BB291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift in Sources */,
+				B4D076B7291EE2B500C793DE /* IBSDevice.Hardware.Connectivity.swift in Sources */,
+				B4D076A2291EDCF200C793DE /* IBSDevice.OperatingSystem.`Type`.swift in Sources */,
+				B4D0769B291EDAE000C793DE /* IBSDevice.Device.Name.swift in Sources */,
+				B4D076A8291EDE5400C793DE /* IBSDevice.Specification.swift in Sources */,
+				B4D076A4291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift in Sources */,
+				B4D07699291EDAD400C793DE /* IBSDevice.Device.Model.swift in Sources */,
+				B4D07686291ED8C200C793DE /* IBSDeviceSpecificationable.swift in Sources */,
+				B4D07690291EDA0900C793DE /* IBSDevice.Device.swift in Sources */,
+				B4D076AD291EE15800C793DE /* IBSDevice.Software.Type.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +923,9 @@
 		B4D075B2291ED14200C793DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 7;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = E2D8MG55MH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -306,7 +940,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ibs.ibskit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -314,6 +948,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,8 +957,9 @@
 		B4D075B3291ED14200C793DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 26;
+				CURRENT_PROJECT_VERSION = 7;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = E2D8MG55MH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -338,7 +974,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ibs.ibskit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
