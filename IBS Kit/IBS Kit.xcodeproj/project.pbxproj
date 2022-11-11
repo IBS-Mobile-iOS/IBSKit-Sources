@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B4D075AE291ED14200C793DE /* IBS_Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D075AD291ED14200C793DE /* IBS_Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D075B8291ED4B700C793DE /* To-Do List.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B4D075B7291ED4B700C793DE /* To-Do List.rtf */; };
+		B4D075BA291ED52600C793DE /* ATTENTION.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B4D075B9291ED52600C793DE /* ATTENTION.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B4D075AA291ED14200C793DE /* IBS_Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBS_Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D075AD291ED14200C793DE /* IBS_Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBS_Kit.h; sourceTree = "<group>"; };
+		B4D075B7291ED4B700C793DE /* To-Do List.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "To-Do List.rtf"; sourceTree = "<group>"; };
+		B4D075B9291ED52600C793DE /* ATTENTION.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ATTENTION.rtf; sourceTree = "<group>"; };
+		B4D075BC291ED7A300C793DE /* XCFrameworkPreviewBuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = XCFrameworkPreviewBuild.sh; sourceTree = "<group>"; };
+		B4D075BD291ED7D300C793DE /* XCFrameworkReleaseBuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = XCFrameworkReleaseBuild.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 		B4D075A0291ED14200C793DE = {
 			isa = PBXGroup;
 			children = (
+				B4D075B6291ED45200C793DE /* To-Do LIst */,
 				B4D075AC291ED14200C793DE /* IBS Kit */,
 				B4D075AB291ED14200C793DE /* Products */,
 			);
@@ -46,8 +53,27 @@
 			isa = PBXGroup;
 			children = (
 				B4D075AD291ED14200C793DE /* IBS_Kit.h */,
+				B4D075B9291ED52600C793DE /* ATTENTION.rtf */,
+				B4D075BB291ED79600C793DE /* XCFramework Build Shell Scripts */,
 			);
 			path = "IBS Kit";
+			sourceTree = "<group>";
+		};
+		B4D075B6291ED45200C793DE /* To-Do LIst */ = {
+			isa = PBXGroup;
+			children = (
+				B4D075B7291ED4B700C793DE /* To-Do List.rtf */,
+			);
+			path = "To-Do LIst";
+			sourceTree = "<group>";
+		};
+		B4D075BB291ED79600C793DE /* XCFramework Build Shell Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				B4D075BC291ED7A300C793DE /* XCFrameworkPreviewBuild.sh */,
+				B4D075BD291ED7D300C793DE /* XCFrameworkReleaseBuild.sh */,
+			);
+			path = "XCFramework Build Shell Scripts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,7 +115,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = IBS;
 				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = IBS;
 				TargetAttributes = {
 					B4D075A9291ED14200C793DE = {
 						CreatedOnToolsVersion = 14.1;
@@ -119,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D075B8291ED4B700C793DE /* To-Do List.rtf in Resources */,
+				B4D075BA291ED52600C793DE /* ATTENTION.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 25;
+				CURRENT_PROJECT_VERSION = 26;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = E2D8MG55MH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -293,7 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 25;
+				CURRENT_PROJECT_VERSION = 26;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = E2D8MG55MH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
