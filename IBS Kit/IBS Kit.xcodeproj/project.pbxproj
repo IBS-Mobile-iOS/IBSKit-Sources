@@ -141,6 +141,12 @@
 		B4D076F0291EF0F300C793DE /* IBSPlayerView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076EF291EF0F300C793DE /* IBSPlayerView+.swift */; };
 		B4D076F2291EF13700C793DE /* IBSVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076F1291EF13700C793DE /* IBSVideoPlayer.swift */; };
 		B4D076F4291EF17600C793DE /* IBSVideoPlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076F3291EF17600C793DE /* IBSVideoPlayerDelegate.swift */; };
+		B4D076F7291EF9D900C793DE /* IBSCountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076F6291EF9D900C793DE /* IBSCountdownView.swift */; };
+		B4D076F9291EFA4600C793DE /* IBSCountdownView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076F8291EFA4600C793DE /* IBSCountdownView+.swift */; };
+		B4D076FB291EFA7000C793DE /* IBSCountdownViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076FA291EFA7000C793DE /* IBSCountdownViewDelegate.swift */; };
+		B4D07700291EFAB300C793DE /* IBSTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076FF291EFAB300C793DE /* IBSTextStyle.swift */; };
+		B4D07704291EFAFF00C793DE /* IBSIndentedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D07703291EFAFF00C793DE /* IBSIndentedLabel.swift */; };
+		B4D07707291EFB3200C793DE /* IBSPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D07706291EFB3200C793DE /* IBSPadding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -283,6 +289,12 @@
 		B4D076EF291EF0F300C793DE /* IBSPlayerView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSPlayerView+.swift"; sourceTree = "<group>"; };
 		B4D076F1291EF13700C793DE /* IBSVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSVideoPlayer.swift; sourceTree = "<group>"; };
 		B4D076F3291EF17600C793DE /* IBSVideoPlayerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSVideoPlayerDelegate.swift; sourceTree = "<group>"; };
+		B4D076F6291EF9D900C793DE /* IBSCountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSCountdownView.swift; sourceTree = "<group>"; };
+		B4D076F8291EFA4600C793DE /* IBSCountdownView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSCountdownView+.swift"; sourceTree = "<group>"; };
+		B4D076FA291EFA7000C793DE /* IBSCountdownViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSCountdownViewDelegate.swift; sourceTree = "<group>"; };
+		B4D076FF291EFAB300C793DE /* IBSTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSTextStyle.swift; sourceTree = "<group>"; };
+		B4D07703291EFAFF00C793DE /* IBSIndentedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSIndentedLabel.swift; sourceTree = "<group>"; };
+		B4D07706291EFB3200C793DE /* IBSPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSPadding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -753,6 +765,7 @@
 		B4D076E4291EEFFD00C793DE /* Software */ = {
 			isa = PBXGroup;
 			children = (
+				B4D076FC291EFA8D00C793DE /* General Purpose Types */,
 				B4D076E5291EF03000C793DE /* Design System */,
 			);
 			path = Software;
@@ -771,6 +784,7 @@
 		B4D076EA291EF07900C793DE /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B4D07701291EFAEF00C793DE /* Labels */,
 				B4D076EB291EF09800C793DE /* Views */,
 			);
 			path = Components;
@@ -779,6 +793,7 @@
 		B4D076EB291EF09800C793DE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B4D076F5291EF9CC00C793DE /* Countdown View */,
 				B4D076EC291EF0A600C793DE /* Player View */,
 			);
 			path = Views;
@@ -791,6 +806,65 @@
 				B4D076EF291EF0F300C793DE /* IBSPlayerView+.swift */,
 			);
 			path = "Player View";
+			sourceTree = "<group>";
+		};
+		B4D076F5291EF9CC00C793DE /* Countdown View */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076F6291EF9D900C793DE /* IBSCountdownView.swift */,
+				B4D076F8291EFA4600C793DE /* IBSCountdownView+.swift */,
+				B4D076FA291EFA7000C793DE /* IBSCountdownViewDelegate.swift */,
+			);
+			path = "Countdown View";
+			sourceTree = "<group>";
+		};
+		B4D076FC291EFA8D00C793DE /* General Purpose Types */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076FD291EFA9600C793DE /* Structure Types */,
+			);
+			path = "General Purpose Types";
+			sourceTree = "<group>";
+		};
+		B4D076FD291EFA9600C793DE /* Structure Types */ = {
+			isa = PBXGroup;
+			children = (
+				B4D07705291EFB2A00C793DE /* Padding */,
+				B4D076FE291EFAA400C793DE /* Text Style */,
+			);
+			path = "Structure Types";
+			sourceTree = "<group>";
+		};
+		B4D076FE291EFAA400C793DE /* Text Style */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076FF291EFAB300C793DE /* IBSTextStyle.swift */,
+			);
+			path = "Text Style";
+			sourceTree = "<group>";
+		};
+		B4D07701291EFAEF00C793DE /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				B4D07702291EFAF400C793DE /* Indented Label */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		B4D07702291EFAF400C793DE /* Indented Label */ = {
+			isa = PBXGroup;
+			children = (
+				B4D07703291EFAFF00C793DE /* IBSIndentedLabel.swift */,
+			);
+			path = "Indented Label";
+			sourceTree = "<group>";
+		};
+		B4D07705291EFB2A00C793DE /* Padding */ = {
+			isa = PBXGroup;
+			children = (
+				B4D07706291EFB3200C793DE /* IBSPadding.swift */,
+			);
+			path = Padding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -974,10 +1048,14 @@
 			files = (
 				B4D076B5291EE2A500C793DE /* IBSDevice.Hardware.SensorAvailability.swift in Sources */,
 				B4D0769D291EDCAE00C793DE /* IBSDevice.OperatingSystem.swift in Sources */,
+				B4D07704291EFAFF00C793DE /* IBSIndentedLabel.swift in Sources */,
 				B4D076B0291EE25400C793DE /* IBSDevice.Hardware.swift in Sources */,
 				B4D076C5291EE7FB00C793DE /* IBSApp.swift in Sources */,
+				B4D076F7291EF9D900C793DE /* IBSCountdownView.swift in Sources */,
 				B4D076D1291EE8C500C793DE /* IBSSDK.Version.swift in Sources */,
 				B4D076E9291EF04B00C793DE /* IBSDesignRedrawable.swift in Sources */,
+				B4D07707291EFB3200C793DE /* IBSPadding.swift in Sources */,
+				B4D076FB291EFA7000C793DE /* IBSCountdownViewDelegate.swift in Sources */,
 				B4D07688291ED8DA00C793DE /* IBSDevice.swift in Sources */,
 				B4D076C3291EE7D700C793DE /* IBSAppSpecificationable.swift in Sources */,
 				B4D076CB291EE85900C793DE /* IBSApp.Version.swift in Sources */,
@@ -995,11 +1073,13 @@
 				B4D076E1291EEF3000C793DE /* IBSHaptic.FeedbackType.swift in Sources */,
 				B4D0769B291EDAE000C793DE /* IBSDevice.Device.Name.swift in Sources */,
 				B4D076A8291EDE5400C793DE /* IBSDevice.Specification.swift in Sources */,
+				B4D07700291EFAB300C793DE /* IBSTextStyle.swift in Sources */,
 				B4D076A4291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift in Sources */,
 				B4D076EE291EF0AE00C793DE /* IBSPlayerView.swift in Sources */,
 				B4D076D3291EE8ED00C793DE /* IBSSDKSpecificationable.swift in Sources */,
 				B4D076C9291EE83200C793DE /* IBSApp.Build.swift in Sources */,
 				B4D076BE291EE44800C793DE /* IBSLivePreview.swift in Sources */,
+				B4D076F9291EFA4600C793DE /* IBSCountdownView+.swift in Sources */,
 				B4D076F4291EF17600C793DE /* IBSVideoPlayerDelegate.swift in Sources */,
 				B4D07699291EDAD400C793DE /* IBSDevice.Device.Model.swift in Sources */,
 				B4D07686291ED8C200C793DE /* IBSDeviceSpecificationable.swift in Sources */,

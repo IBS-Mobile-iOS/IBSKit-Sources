@@ -33,7 +33,7 @@ public final class IBSVideoPlayer: NSObject {
     ///
     public var rate: Float = 1 {
         willSet {
-            guard let player = assetPlayer else { return }
+            guard let player else { return }
 
             player.rate = newValue > 0 ? newValue : 0
         }
@@ -44,7 +44,7 @@ public final class IBSVideoPlayer: NSObject {
     ///
     public var volume: Float = 0 {
         willSet {
-            guard let player = assetPlayer else { return }
+            guard let player else { return }
 
             player.volume = newValue
         }
@@ -54,21 +54,22 @@ public final class IBSVideoPlayer: NSObject {
 
     // MARK: - Private properties
 
-    private let videoContext: UnsafeMutableRawPointer? = nil
-
-    private var assetPlayer: AVPlayer?
-
-    private var playerItem: AVPlayerItem?
-
-    private var urlAsset: AVURLAsset?
-
-    private var videoOutput: AVPlayerItemVideoOutput?
-
-    private var assetDuration = 0.0
-
     private var playerView: IBSPlayerView?
 
-    private var autoRepeatPlay = false
+    private let context: UnsafeMutableRawPointer? = nil
+
+    private var player: AVPlayer?
+
+    private var item: AVPlayerItem?
+
+    private var asset: AVURLAsset?
+
+    private var output: AVPlayerItemVideoOutput?
+
+    private var duration = 0.0
+
+    private var repeatAfterEnd = false
+
     private var autoPlay = false
 
 
@@ -85,17 +86,12 @@ public final class IBSVideoPlayer: NSObject {
     ///
     ///
     ///
-    convenience init(urlAsset: NSURL,
-                     playerView: IBSPlayerView,
+    convenience init(for view: IBSPlayerView,
+                     with url: NSURL,
                      contentMode: AVLayerVideoGravity = .resize,
-                     startAutoPlay: Bool = false,
+                     autoPlay: Bool = false,
                      repeatAfterEnd: Bool = false) {
         self.init()
-
-        self.playerView = playerView
-
-        autoPlay = startAutoPlay
-        autoRepeatPlay = repeatAfterEnd
 
         guard
             let playerView = self.playerView,
@@ -104,7 +100,12 @@ public final class IBSVideoPlayer: NSObject {
 
         playerLayer.videoGravity = contentMode
 
-        initialSetup(with: urlAsset)
+        self.playerView = playerView
+
+        self.autoPlay = autoPlay
+        self.repeatAfterEnd = repeatAfterEnd
+
+        initialSetup(with: url)
 
         prepareToPlay()
     }
@@ -121,13 +122,13 @@ public final class IBSVideoPlayer: NSObject {
                                       change: [NSKeyValueChangeKey : Any]?,
                                       context: UnsafeMutableRawPointer?) {
         guard
-            context == videoContext,
+            context == context,
             let key = keyPath
         else { return }
 
-        if key == "status", let player = assetPlayer {
+        if key == "status", let player {
             playerDidChangeStatus(status: player.status)
-        } else if key == "loadedTimeRanges", let item = playerItem {
+        } else if key == "loadedTimeRanges", let item {
             moviewPlayerLoadedTimeRangeDidUpdated(ranges: item.loadedTimeRanges)
         }
     }
@@ -140,7 +141,7 @@ public final class IBSVideoPlayer: NSObject {
     ///
     ///
     public func isPlaying() -> Bool {
-        guard let player = assetPlayer else { return false }
+        guard let player else { return false }
 
         return player.rate > 0
     }
@@ -150,7 +151,7 @@ public final class IBSVideoPlayer: NSObject {
     ///
     public func play() {
         guard
-            let player = assetPlayer,
+            let player,
             player.currentItem?.status == .readyToPlay
         else { return }
 
@@ -162,7 +163,7 @@ public final class IBSVideoPlayer: NSObject {
     ///
     ///
     public func pause() {
-        guard let player = assetPlayer else { return }
+        guard let player else { return }
 
         player.pause()
     }
@@ -171,7 +172,7 @@ public final class IBSVideoPlayer: NSObject {
     ///
     ///
     public func seekToPosition(seconds: Float64) {
-        guard let player = assetPlayer else { return }
+        guard let player else { return }
 
         pause()
 
@@ -198,7 +199,7 @@ public final class IBSVideoPlayer: NSObject {
             AVURLAssetPreferPreciseDurationAndTimingKey : true
         ]
 
-        urlAsset = AVURLAsset(
+        asset = AVURLAsset(
             url: url as URL,
             options: options
         )
@@ -207,7 +208,7 @@ public final class IBSVideoPlayer: NSObject {
     private func prepareToPlay() {
         let keys = ["tracks"]
 
-        guard let asset = urlAsset else { return }
+        guard let asset else { return }
 
         asset.loadValuesAsynchronously(forKeys: keys) {
             DispatchQueue.global(qos: .userInitiated).async {
@@ -219,30 +220,31 @@ public final class IBSVideoPlayer: NSObject {
     }
 
     private func startLoading() {
-        guard let asset = urlAsset else { return }
+        guard let asset else { return }
 
         let status = asset.statusOfValue(forKey: "tracks", error: nil)
 
         guard status == AVKeyValueStatus.loaded else { return }
 
-        assetDuration = CMTimeGetSeconds(asset.duration)
+        duration = CMTimeGetSeconds(asset.duration)
 
         let videoOutputOptions = [
             kCVPixelBufferPixelFormatTypeKey as String : Int(kCVPixelFormatType_420YpCbCr8BiPlanarVideoRange)
         ]
 
-        videoOutput = AVPlayerItemVideoOutput(pixelBufferAttributes: videoOutputOptions)
+        output = AVPlayerItemVideoOutput(pixelBufferAttributes: videoOutputOptions)
 
-        playerItem = AVPlayerItem(asset: asset)
+        item = .init(asset: asset)
 
-        guard let item = playerItem else { return }
+        guard let item else { return }
 
         item.addObserver(
             self,
             forKeyPath: "status",
             options: .initial,
-            context: videoContext
+            context: context
         )
+
         item.addObserver(
             self,
             forKeyPath: "loadedTimeRanges",
@@ -250,7 +252,7 @@ public final class IBSVideoPlayer: NSObject {
                 .new,
                 .old
             ],
-            context: videoContext
+            context: context
         )
 
         NotificationCenter.default.addObserver(
@@ -259,6 +261,7 @@ public final class IBSVideoPlayer: NSObject {
             name: NSNotification.Name.AVPlayerItemDidPlayToEndTime,
             object: nil
         )
+
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(didFailedToPlayToEnd),
@@ -266,14 +269,14 @@ public final class IBSVideoPlayer: NSObject {
             object: nil
         )
 
-        guard let output = videoOutput else { return }
+        guard let output else { return }
 
         item.add(output)
         item.audioTimePitchAlgorithm = AVAudioTimePitchAlgorithm.varispeed
 
-        assetPlayer = AVPlayer(playerItem: item)
+        player = .init(playerItem: item)
 
-        guard let player = assetPlayer else { return }
+        guard let player else { return }
 
         player.rate = rate
 
@@ -284,13 +287,13 @@ public final class IBSVideoPlayer: NSObject {
             let layer = playerView.layer as? AVPlayerLayer
         else { return }
 
-        layer.player = assetPlayer
+        layer.player = player
     }
 
     private func addPeriodicalObserver() {
         let timeInterval = CMTimeMake(value: 1, timescale: 1)
 
-        guard let player = assetPlayer else { return }
+        guard let player else { return }
 
         player.addPeriodicTimeObserver(
             forInterval: timeInterval,
@@ -304,10 +307,10 @@ public final class IBSVideoPlayer: NSObject {
     }
 
     private func playerDidChangeTime(time:CMTime) {
-        guard let player = assetPlayer else { return }
+        guard let player else { return }
 
         let timeNow = CMTimeGetSeconds(player.currentTime())
-        let progress = timeNow / assetDuration
+        let progress = timeNow / duration
 
         delegate?.didUpdateProgress(with: progress, and: Double(timeNow))
     }
@@ -317,7 +320,7 @@ public final class IBSVideoPlayer: NSObject {
         case .unknown:
             break
         case .readyToPlay:
-            guard let player = assetPlayer else { return }
+            guard let player else { return }
 
             volume = player.volume
 
@@ -346,19 +349,19 @@ public final class IBSVideoPlayer: NSObject {
             }
         }
 
-        let progress = assetDuration.isEqual(to: 0) ? 0 : Double(maximum) / assetDuration
+        let progress = duration.isEqual(to: 0) ? 0 : Double(maximum) / duration
 
         delegate?.downloadedProgress(with: progress)
     }
 
-    private func cleanUp() {
+    private func clear() {
         NotificationCenter.default.removeObserver(self)
 
-        assetPlayer = nil
-        playerItem = nil
-        urlAsset = nil
+        player = nil
+        item = nil
+        asset = nil
 
-        guard let item = playerItem else { return }
+        guard let item else { return }
 
         item.removeObserver(self, forKeyPath: "status")
         item.removeObserver(self, forKeyPath: "loadedTimeRanges")
@@ -372,12 +375,11 @@ public final class IBSVideoPlayer: NSObject {
     private func playerItemDidReachEnd() {
         delegate?.didFinishPlayItem()
 
-        guard let player = assetPlayer else { return }
+        guard let player else { return }
 
-
-
-        if autoRepeatPlay {
+        if repeatAfterEnd {
             player.seek(to: .zero)
+
             play()
         }
     }
@@ -392,6 +394,6 @@ public final class IBSVideoPlayer: NSObject {
     // MARK: - Deinit
 
     deinit {
-        cleanUp()
+        clear()
     }
 }
