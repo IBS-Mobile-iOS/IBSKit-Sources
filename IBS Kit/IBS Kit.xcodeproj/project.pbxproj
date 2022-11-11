@@ -132,6 +132,15 @@
 		B4D076D1291EE8C500C793DE /* IBSSDK.Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076D0291EE8C500C793DE /* IBSSDK.Version.swift */; };
 		B4D076D3291EE8ED00C793DE /* IBSSDKSpecificationable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076D2291EE8ED00C793DE /* IBSSDKSpecificationable.swift */; };
 		B4D076D5291EE91200C793DE /* IBSSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076D4291EE91200C793DE /* IBSSDK.swift */; };
+		B4D076DB291EEEE000C793DE /* IBSHapticExecutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076DA291EEEE000C793DE /* IBSHapticExecutable.swift */; };
+		B4D076DD291EEEE600C793DE /* IBSHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076DC291EEEE600C793DE /* IBSHaptic.swift */; };
+		B4D076E1291EEF3000C793DE /* IBSHaptic.FeedbackType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076E0291EEF3000C793DE /* IBSHaptic.FeedbackType.swift */; };
+		B4D076E7291EF04300C793DE /* IBSDesignDrawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076E6291EF04300C793DE /* IBSDesignDrawable.swift */; };
+		B4D076E9291EF04B00C793DE /* IBSDesignRedrawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076E8291EF04B00C793DE /* IBSDesignRedrawable.swift */; };
+		B4D076EE291EF0AE00C793DE /* IBSPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076ED291EF0AE00C793DE /* IBSPlayerView.swift */; };
+		B4D076F0291EF0F300C793DE /* IBSPlayerView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076EF291EF0F300C793DE /* IBSPlayerView+.swift */; };
+		B4D076F2291EF13700C793DE /* IBSVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076F1291EF13700C793DE /* IBSVideoPlayer.swift */; };
+		B4D076F4291EF17600C793DE /* IBSVideoPlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076F3291EF17600C793DE /* IBSVideoPlayerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -265,6 +274,15 @@
 		B4D076D0291EE8C500C793DE /* IBSSDK.Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSDK.Version.swift; sourceTree = "<group>"; };
 		B4D076D2291EE8ED00C793DE /* IBSSDKSpecificationable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSDKSpecificationable.swift; sourceTree = "<group>"; };
 		B4D076D4291EE91200C793DE /* IBSSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSDK.swift; sourceTree = "<group>"; };
+		B4D076DA291EEEE000C793DE /* IBSHapticExecutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSHapticExecutable.swift; sourceTree = "<group>"; };
+		B4D076DC291EEEE600C793DE /* IBSHaptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSHaptic.swift; sourceTree = "<group>"; };
+		B4D076E0291EEF3000C793DE /* IBSHaptic.FeedbackType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSHaptic.FeedbackType.swift; sourceTree = "<group>"; };
+		B4D076E6291EF04300C793DE /* IBSDesignDrawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDesignDrawable.swift; sourceTree = "<group>"; };
+		B4D076E8291EF04B00C793DE /* IBSDesignRedrawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDesignRedrawable.swift; sourceTree = "<group>"; };
+		B4D076ED291EF0AE00C793DE /* IBSPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSPlayerView.swift; sourceTree = "<group>"; };
+		B4D076EF291EF0F300C793DE /* IBSPlayerView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSPlayerView+.swift"; sourceTree = "<group>"; };
+		B4D076F1291EF13700C793DE /* IBSVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSVideoPlayer.swift; sourceTree = "<group>"; };
+		B4D076F3291EF17600C793DE /* IBSVideoPlayerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSVideoPlayerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +320,8 @@
 				B4D075B9291ED52600C793DE /* ATTENTION.rtf */,
 				B4D075BB291ED79600C793DE /* XCFramework Build Shell Scripts */,
 				B4D075BE291ED81E00C793DE /* Development Tools */,
+				B4D076D6291EE9E200C793DE /* Hardware */,
+				B4D076E4291EEFFD00C793DE /* Software */,
 			);
 			path = "IBS Kit";
 			sourceTree = "<group>";
@@ -686,6 +706,93 @@
 			path = Typealiases;
 			sourceTree = "<group>";
 		};
+		B4D076D6291EE9E200C793DE /* Hardware */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076D8291EE9EC00C793DE /* Haptic Feedback */,
+				B4D076D7291EE9EA00C793DE /* Video Player */,
+			);
+			path = Hardware;
+			sourceTree = "<group>";
+		};
+		B4D076D7291EE9EA00C793DE /* Video Player */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076F1291EF13700C793DE /* IBSVideoPlayer.swift */,
+				B4D076F3291EF17600C793DE /* IBSVideoPlayerDelegate.swift */,
+			);
+			path = "Video Player";
+			sourceTree = "<group>";
+		};
+		B4D076D8291EE9EC00C793DE /* Haptic Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076D9291EE9F300C793DE /* Extensions */,
+				B4D076DA291EEEE000C793DE /* IBSHapticExecutable.swift */,
+				B4D076DC291EEEE600C793DE /* IBSHaptic.swift */,
+			);
+			path = "Haptic Feedback";
+			sourceTree = "<group>";
+		};
+		B4D076D9291EE9F300C793DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076DE291EEF1200C793DE /* FeedbackType */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4D076DE291EEF1200C793DE /* FeedbackType */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076E0291EEF3000C793DE /* IBSHaptic.FeedbackType.swift */,
+			);
+			path = FeedbackType;
+			sourceTree = "<group>";
+		};
+		B4D076E4291EEFFD00C793DE /* Software */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076E5291EF03000C793DE /* Design System */,
+			);
+			path = Software;
+			sourceTree = "<group>";
+		};
+		B4D076E5291EF03000C793DE /* Design System */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076E6291EF04300C793DE /* IBSDesignDrawable.swift */,
+				B4D076E8291EF04B00C793DE /* IBSDesignRedrawable.swift */,
+				B4D076EA291EF07900C793DE /* Components */,
+			);
+			path = "Design System";
+			sourceTree = "<group>";
+		};
+		B4D076EA291EF07900C793DE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076EB291EF09800C793DE /* Views */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B4D076EB291EF09800C793DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076EC291EF0A600C793DE /* Player View */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4D076EC291EF0A600C793DE /* Player View */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076ED291EF0AE00C793DE /* IBSPlayerView.swift */,
+				B4D076EF291EF0F300C793DE /* IBSPlayerView+.swift */,
+			);
+			path = "Player View";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -870,6 +977,7 @@
 				B4D076B0291EE25400C793DE /* IBSDevice.Hardware.swift in Sources */,
 				B4D076C5291EE7FB00C793DE /* IBSApp.swift in Sources */,
 				B4D076D1291EE8C500C793DE /* IBSSDK.Version.swift in Sources */,
+				B4D076E9291EF04B00C793DE /* IBSDesignRedrawable.swift in Sources */,
 				B4D07688291ED8DA00C793DE /* IBSDevice.swift in Sources */,
 				B4D076C3291EE7D700C793DE /* IBSAppSpecificationable.swift in Sources */,
 				B4D076CB291EE85900C793DE /* IBSApp.Version.swift in Sources */,
@@ -878,18 +986,26 @@
 				B4D076A6291EDE0500C793DE /* IBSDevice.OperatingSystem.Version.swift in Sources */,
 				B4D07695291EDABC00C793DE /* IBSDevice.Device.`Type`.swift in Sources */,
 				B4D076CF291EE8BE00C793DE /* IBSSDK.Build.swift in Sources */,
+				B4D076F0291EF0F300C793DE /* IBSPlayerView+.swift in Sources */,
 				B4D076BB291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift in Sources */,
 				B4D076B7291EE2B500C793DE /* IBSDevice.Hardware.Connectivity.swift in Sources */,
+				B4D076F2291EF13700C793DE /* IBSVideoPlayer.swift in Sources */,
+				B4D076DD291EEEE600C793DE /* IBSHaptic.swift in Sources */,
 				B4D076A2291EDCF200C793DE /* IBSDevice.OperatingSystem.`Type`.swift in Sources */,
+				B4D076E1291EEF3000C793DE /* IBSHaptic.FeedbackType.swift in Sources */,
 				B4D0769B291EDAE000C793DE /* IBSDevice.Device.Name.swift in Sources */,
 				B4D076A8291EDE5400C793DE /* IBSDevice.Specification.swift in Sources */,
 				B4D076A4291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift in Sources */,
+				B4D076EE291EF0AE00C793DE /* IBSPlayerView.swift in Sources */,
 				B4D076D3291EE8ED00C793DE /* IBSSDKSpecificationable.swift in Sources */,
 				B4D076C9291EE83200C793DE /* IBSApp.Build.swift in Sources */,
 				B4D076BE291EE44800C793DE /* IBSLivePreview.swift in Sources */,
+				B4D076F4291EF17600C793DE /* IBSVideoPlayerDelegate.swift in Sources */,
 				B4D07699291EDAD400C793DE /* IBSDevice.Device.Model.swift in Sources */,
 				B4D07686291ED8C200C793DE /* IBSDeviceSpecificationable.swift in Sources */,
+				B4D076E7291EF04300C793DE /* IBSDesignDrawable.swift in Sources */,
 				B4D07690291EDA0900C793DE /* IBSDevice.Device.swift in Sources */,
+				B4D076DB291EEEE000C793DE /* IBSHapticExecutable.swift in Sources */,
 				B4D076AD291EE15800C793DE /* IBSDevice.Software.Type.swift in Sources */,
 				B4D076D5291EE91200C793DE /* IBSSDK.swift in Sources */,
 			);
