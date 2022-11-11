@@ -124,6 +124,14 @@
 		B4D076B9291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076B8291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift */; };
 		B4D076BB291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076BA291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift */; };
 		B4D076BE291EE44800C793DE /* IBSLivePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076BD291EE44800C793DE /* IBSLivePreview.swift */; };
+		B4D076C3291EE7D700C793DE /* IBSAppSpecificationable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076C2291EE7D700C793DE /* IBSAppSpecificationable.swift */; };
+		B4D076C5291EE7FB00C793DE /* IBSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076C4291EE7FB00C793DE /* IBSApp.swift */; };
+		B4D076C9291EE83200C793DE /* IBSApp.Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076C8291EE83200C793DE /* IBSApp.Build.swift */; };
+		B4D076CB291EE85900C793DE /* IBSApp.Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076CA291EE85900C793DE /* IBSApp.Version.swift */; };
+		B4D076CF291EE8BE00C793DE /* IBSSDK.Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076CE291EE8BE00C793DE /* IBSSDK.Build.swift */; };
+		B4D076D1291EE8C500C793DE /* IBSSDK.Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076D0291EE8C500C793DE /* IBSSDK.Version.swift */; };
+		B4D076D3291EE8ED00C793DE /* IBSSDKSpecificationable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076D2291EE8ED00C793DE /* IBSSDKSpecificationable.swift */; };
+		B4D076D5291EE91200C793DE /* IBSSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076D4291EE91200C793DE /* IBSSDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -249,6 +257,14 @@
 		B4D076B8291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Hardware.IMU.swift; sourceTree = "<group>"; };
 		B4D076BA291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDevice.Hardware.Network.swift; sourceTree = "<group>"; };
 		B4D076BD291EE44800C793DE /* IBSLivePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSLivePreview.swift; sourceTree = "<group>"; };
+		B4D076C2291EE7D700C793DE /* IBSAppSpecificationable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSAppSpecificationable.swift; sourceTree = "<group>"; };
+		B4D076C4291EE7FB00C793DE /* IBSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSApp.swift; sourceTree = "<group>"; };
+		B4D076C8291EE83200C793DE /* IBSApp.Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSApp.Build.swift; sourceTree = "<group>"; };
+		B4D076CA291EE85900C793DE /* IBSApp.Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSApp.Version.swift; sourceTree = "<group>"; };
+		B4D076CE291EE8BE00C793DE /* IBSSDK.Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSDK.Build.swift; sourceTree = "<group>"; };
+		B4D076D0291EE8C500C793DE /* IBSSDK.Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSDK.Version.swift; sourceTree = "<group>"; };
+		B4D076D2291EE8ED00C793DE /* IBSSDKSpecificationable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSDKSpecificationable.swift; sourceTree = "<group>"; };
+		B4D076D4291EE91200C793DE /* IBSSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,6 +328,7 @@
 			children = (
 				B4D075BF291ED86200C793DE /* Device Specification */,
 				B4D076BC291EE43A00C793DE /* Live Preview */,
+				B4D076BF291EE48E00C793DE /* Project Specifications */,
 			);
 			path = "Development Tools";
 			sourceTree = "<group>";
@@ -606,6 +623,69 @@
 			path = "Live Preview";
 			sourceTree = "<group>";
 		};
+		B4D076BF291EE48E00C793DE /* Project Specifications */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076C1291EE49D00C793DE /* App Specification */,
+				B4D076C0291EE49B00C793DE /* SDK Specification */,
+			);
+			path = "Project Specifications";
+			sourceTree = "<group>";
+		};
+		B4D076C0291EE49B00C793DE /* SDK Specification */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076CD291EE8B100C793DE /* Typealiases */,
+				B4D076CC291EE8A500C793DE /* Extensions */,
+				B4D076D2291EE8ED00C793DE /* IBSSDKSpecificationable.swift */,
+				B4D076D4291EE91200C793DE /* IBSSDK.swift */,
+			);
+			path = "SDK Specification";
+			sourceTree = "<group>";
+		};
+		B4D076C1291EE49D00C793DE /* App Specification */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076C7291EE81500C793DE /* Typealiases */,
+				B4D076C6291EE80E00C793DE /* Extensions */,
+				B4D076C2291EE7D700C793DE /* IBSAppSpecificationable.swift */,
+				B4D076C4291EE7FB00C793DE /* IBSApp.swift */,
+			);
+			path = "App Specification";
+			sourceTree = "<group>";
+		};
+		B4D076C6291EE80E00C793DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076CA291EE85900C793DE /* IBSApp.Version.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4D076C7291EE81500C793DE /* Typealiases */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076C8291EE83200C793DE /* IBSApp.Build.swift */,
+			);
+			path = Typealiases;
+			sourceTree = "<group>";
+		};
+		B4D076CC291EE8A500C793DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076D0291EE8C500C793DE /* IBSSDK.Version.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4D076CD291EE8B100C793DE /* Typealiases */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076CE291EE8BE00C793DE /* IBSSDK.Build.swift */,
+			);
+			path = Typealiases;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -788,22 +868,30 @@
 				B4D076B5291EE2A500C793DE /* IBSDevice.Hardware.SensorAvailability.swift in Sources */,
 				B4D0769D291EDCAE00C793DE /* IBSDevice.OperatingSystem.swift in Sources */,
 				B4D076B0291EE25400C793DE /* IBSDevice.Hardware.swift in Sources */,
+				B4D076C5291EE7FB00C793DE /* IBSApp.swift in Sources */,
+				B4D076D1291EE8C500C793DE /* IBSSDK.Version.swift in Sources */,
 				B4D07688291ED8DA00C793DE /* IBSDevice.swift in Sources */,
+				B4D076C3291EE7D700C793DE /* IBSAppSpecificationable.swift in Sources */,
+				B4D076CB291EE85900C793DE /* IBSApp.Version.swift in Sources */,
 				B4D076B9291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift in Sources */,
 				B4D076AA291EE12600C793DE /* IBSDevice.Software.swift in Sources */,
 				B4D076A6291EDE0500C793DE /* IBSDevice.OperatingSystem.Version.swift in Sources */,
 				B4D07695291EDABC00C793DE /* IBSDevice.Device.`Type`.swift in Sources */,
+				B4D076CF291EE8BE00C793DE /* IBSSDK.Build.swift in Sources */,
 				B4D076BB291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift in Sources */,
 				B4D076B7291EE2B500C793DE /* IBSDevice.Hardware.Connectivity.swift in Sources */,
 				B4D076A2291EDCF200C793DE /* IBSDevice.OperatingSystem.`Type`.swift in Sources */,
 				B4D0769B291EDAE000C793DE /* IBSDevice.Device.Name.swift in Sources */,
 				B4D076A8291EDE5400C793DE /* IBSDevice.Specification.swift in Sources */,
 				B4D076A4291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift in Sources */,
+				B4D076D3291EE8ED00C793DE /* IBSSDKSpecificationable.swift in Sources */,
+				B4D076C9291EE83200C793DE /* IBSApp.Build.swift in Sources */,
 				B4D076BE291EE44800C793DE /* IBSLivePreview.swift in Sources */,
 				B4D07699291EDAD400C793DE /* IBSDevice.Device.Model.swift in Sources */,
 				B4D07686291ED8C200C793DE /* IBSDeviceSpecificationable.swift in Sources */,
 				B4D07690291EDA0900C793DE /* IBSDevice.Device.swift in Sources */,
 				B4D076AD291EE15800C793DE /* IBSDevice.Software.Type.swift in Sources */,
+				B4D076D5291EE91200C793DE /* IBSSDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
