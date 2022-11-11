@@ -26,6 +26,7 @@
 		B4D07591291ED00800C793DE /* IBS Core */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "IBS Core"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D0759D291ED07100C793DE /* IBSCore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IBSCore.cpp; sourceTree = "<group>"; };
 		B4D0759E291ED07100C793DE /* IBSCore.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IBSCore.hpp; sourceTree = "<group>"; };
+		B4D075B4291ED41D00C793DE /* IBS Core.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "IBS Core.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +61,17 @@
 			children = (
 				B4D0759E291ED07100C793DE /* IBSCore.hpp */,
 				B4D0759D291ED07100C793DE /* IBSCore.cpp */,
+				B4D075B5291ED42600C793DE /* Sandbox */,
 			);
 			path = "IBS Core";
+			sourceTree = "<group>";
+		};
+		B4D075B5291ED42600C793DE /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				B4D075B4291ED41D00C793DE /* IBS Core.entitlements */,
+			);
+			path = Sandbox;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,15 +254,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "IBS Core/IBS Core.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E2D8MG55MH;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ibs.ibscore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -263,15 +275,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "IBS Core/IBS Core.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E2D8MG55MH;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ibs.ibscore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
