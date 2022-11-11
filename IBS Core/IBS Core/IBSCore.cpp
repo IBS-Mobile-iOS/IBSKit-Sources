@@ -17,7 +17,15 @@
 // MARK: - Main function
 
 ///
+/// The main function that runs when the application starts.
 ///
+/// - Parameters:
+///    - argc: Number of arguments to accept when calling a function.
+///    - argv: List of accepted arguments when calling a function.
+///
+/// - Authors: Dmitry Novikov
+///
+/// - Bug: None
 ///
 int main(int argc,
          const char * argv[]) {
