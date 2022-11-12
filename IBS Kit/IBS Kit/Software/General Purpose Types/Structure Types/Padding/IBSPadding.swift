@@ -2,7 +2,7 @@
 //  IBSPadding.swift
 //  IBS Kit
 //
-//  Created by Dimka Novikov on 12.11.2022.
+//  Created by Dimka Novikov on 11.11.2022.
 //  Copyright © 2022 IBS. All rights reserved.
 //
 

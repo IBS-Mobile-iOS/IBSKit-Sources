@@ -147,6 +147,10 @@
 		B4D07700291EFAB300C793DE /* IBSTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076FF291EFAB300C793DE /* IBSTextStyle.swift */; };
 		B4D07704291EFAFF00C793DE /* IBSIndentedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D07703291EFAFF00C793DE /* IBSIndentedLabel.swift */; };
 		B4D07707291EFB3200C793DE /* IBSPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D07706291EFB3200C793DE /* IBSPadding.swift */; };
+		B4D0770C291EFD1A00C793DE /* IBSSplitSpaceControllerPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0770B291EFD1A00C793DE /* IBSSplitSpaceControllerPresentable.swift */; };
+		B4D0770E291EFD5600C793DE /* IBSSplitSpaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0770D291EFD5600C793DE /* IBSSplitSpaceController.swift */; };
+		B4D07713291EFDA400C793DE /* IBSSplitSpaceController.LeftSideInitialState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D07712291EFDA400C793DE /* IBSSplitSpaceController.LeftSideInitialState.swift */; };
+		B4D07715291EFDCF00C793DE /* IBSSplitSpaceController.LeftSideSupportedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D07714291EFDCF00C793DE /* IBSSplitSpaceController.LeftSideSupportedState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -295,6 +299,10 @@
 		B4D076FF291EFAB300C793DE /* IBSTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSTextStyle.swift; sourceTree = "<group>"; };
 		B4D07703291EFAFF00C793DE /* IBSIndentedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSIndentedLabel.swift; sourceTree = "<group>"; };
 		B4D07706291EFB3200C793DE /* IBSPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSPadding.swift; sourceTree = "<group>"; };
+		B4D0770B291EFD1A00C793DE /* IBSSplitSpaceControllerPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSplitSpaceControllerPresentable.swift; sourceTree = "<group>"; };
+		B4D0770D291EFD5600C793DE /* IBSSplitSpaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSplitSpaceController.swift; sourceTree = "<group>"; };
+		B4D07712291EFDA400C793DE /* IBSSplitSpaceController.LeftSideInitialState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSplitSpaceController.LeftSideInitialState.swift; sourceTree = "<group>"; };
+		B4D07714291EFDCF00C793DE /* IBSSplitSpaceController.LeftSideSupportedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSplitSpaceController.LeftSideSupportedState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -777,6 +785,7 @@
 				B4D076E6291EF04300C793DE /* IBSDesignDrawable.swift */,
 				B4D076E8291EF04B00C793DE /* IBSDesignRedrawable.swift */,
 				B4D076EA291EF07900C793DE /* Components */,
+				B4D07708291EFCEF00C793DE /* Controllers */,
 			);
 			path = "Design System";
 			sourceTree = "<group>";
@@ -865,6 +874,57 @@
 				B4D07706291EFB3200C793DE /* IBSPadding.swift */,
 			);
 			path = Padding;
+			sourceTree = "<group>";
+		};
+		B4D07708291EFCEF00C793DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4D0770A291EFD0700C793DE /* Extended Tab Bar Controller */,
+				B4D07709291EFCFE00C793DE /* Split Space Controller */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B4D07709291EFCFE00C793DE /* Split Space Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4D0770F291EFD6900C793DE /* Extensions */,
+				B4D0770B291EFD1A00C793DE /* IBSSplitSpaceControllerPresentable.swift */,
+				B4D0770D291EFD5600C793DE /* IBSSplitSpaceController.swift */,
+			);
+			path = "Split Space Controller";
+			sourceTree = "<group>";
+		};
+		B4D0770A291EFD0700C793DE /* Extended Tab Bar Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Extended Tab Bar Controller";
+			sourceTree = "<group>";
+		};
+		B4D0770F291EFD6900C793DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4D07710291EFD7100C793DE /* Left Side Initial State */,
+				B4D07711291EFD7F00C793DE /* Left Side Supported State */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4D07710291EFD7100C793DE /* Left Side Initial State */ = {
+			isa = PBXGroup;
+			children = (
+				B4D07712291EFDA400C793DE /* IBSSplitSpaceController.LeftSideInitialState.swift */,
+			);
+			path = "Left Side Initial State";
+			sourceTree = "<group>";
+		};
+		B4D07711291EFD7F00C793DE /* Left Side Supported State */ = {
+			isa = PBXGroup;
+			children = (
+				B4D07714291EFDCF00C793DE /* IBSSplitSpaceController.LeftSideSupportedState.swift */,
+			);
+			path = "Left Side Supported State";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1063,17 +1123,21 @@
 				B4D076AA291EE12600C793DE /* IBSDevice.Software.swift in Sources */,
 				B4D076A6291EDE0500C793DE /* IBSDevice.OperatingSystem.Version.swift in Sources */,
 				B4D07695291EDABC00C793DE /* IBSDevice.Device.`Type`.swift in Sources */,
+				B4D0770C291EFD1A00C793DE /* IBSSplitSpaceControllerPresentable.swift in Sources */,
 				B4D076CF291EE8BE00C793DE /* IBSSDK.Build.swift in Sources */,
 				B4D076F0291EF0F300C793DE /* IBSPlayerView+.swift in Sources */,
 				B4D076BB291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift in Sources */,
 				B4D076B7291EE2B500C793DE /* IBSDevice.Hardware.Connectivity.swift in Sources */,
 				B4D076F2291EF13700C793DE /* IBSVideoPlayer.swift in Sources */,
 				B4D076DD291EEEE600C793DE /* IBSHaptic.swift in Sources */,
+				B4D07715291EFDCF00C793DE /* IBSSplitSpaceController.LeftSideSupportedState.swift in Sources */,
 				B4D076A2291EDCF200C793DE /* IBSDevice.OperatingSystem.`Type`.swift in Sources */,
 				B4D076E1291EEF3000C793DE /* IBSHaptic.FeedbackType.swift in Sources */,
+				B4D0770E291EFD5600C793DE /* IBSSplitSpaceController.swift in Sources */,
 				B4D0769B291EDAE000C793DE /* IBSDevice.Device.Name.swift in Sources */,
 				B4D076A8291EDE5400C793DE /* IBSDevice.Specification.swift in Sources */,
 				B4D07700291EFAB300C793DE /* IBSTextStyle.swift in Sources */,
+				B4D07713291EFDA400C793DE /* IBSSplitSpaceController.LeftSideInitialState.swift in Sources */,
 				B4D076A4291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift in Sources */,
 				B4D076EE291EF0AE00C793DE /* IBSPlayerView.swift in Sources */,
 				B4D076D3291EE8ED00C793DE /* IBSSDKSpecificationable.swift in Sources */,
