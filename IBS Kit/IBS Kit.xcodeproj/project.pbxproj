@@ -154,7 +154,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B4D075AA291ED14200C793DE /* IBS_Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBS_Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D075AA291ED14200C793DE /* IBSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D075AD291ED14200C793DE /* IBS_Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBS_Kit.h; sourceTree = "<group>"; };
 		B4D075B7291ED4B700C793DE /* To-Do List.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "To-Do List.rtf"; sourceTree = "<group>"; };
 		B4D075B9291ED52600C793DE /* ATTENTION.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = ATTENTION.rtf; sourceTree = "<group>"; };
@@ -328,7 +328,7 @@
 		B4D075AB291ED14200C793DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4D075AA291ED14200C793DE /* IBS_Kit.framework */,
+				B4D075AA291ED14200C793DE /* IBSKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -941,9 +941,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B4D075A9291ED14200C793DE /* IBS Kit */ = {
+		B4D075A9291ED14200C793DE /* IBSKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4D075B1291ED14200C793DE /* Build configuration list for PBXNativeTarget "IBS Kit" */;
+			buildConfigurationList = B4D075B1291ED14200C793DE /* Build configuration list for PBXNativeTarget "IBSKit" */;
 			buildPhases = (
 				B4D075A5291ED14200C793DE /* Headers */,
 				B4D075A6291ED14200C793DE /* Sources */,
@@ -954,9 +954,9 @@
 			);
 			dependencies = (
 			);
-			name = "IBS Kit";
+			name = IBSKit;
 			productName = "IBS Kit";
-			productReference = B4D075AA291ED14200C793DE /* IBS_Kit.framework */;
+			productReference = B4D075AA291ED14200C793DE /* IBSKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -989,7 +989,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4D075A9291ED14200C793DE /* IBS Kit */,
+				B4D075A9291ED14200C793DE /* IBSKit */,
 			);
 		};
 /* End PBXProject section */
@@ -1359,7 +1359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4D075B1291ED14200C793DE /* Build configuration list for PBXNativeTarget "IBS Kit" */ = {
+		B4D075B1291ED14200C793DE /* Build configuration list for PBXNativeTarget "IBSKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4D075B2291ED14200C793DE /* Debug */,
