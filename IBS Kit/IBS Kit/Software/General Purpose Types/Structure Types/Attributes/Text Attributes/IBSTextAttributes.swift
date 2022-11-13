@@ -39,18 +39,18 @@ public struct IBSTextAttributes {
     ///
     ///
     ///
-    public var shadowStyle: IBSShadowStyle
+    public var shadow: IBSShadowStyle
 
     ///
     ///
     ///
-    init(text: String = "",
+    public init(text: String = "",
          color: UIColor = .clear,
          font: UIFont = .systemFont(ofSize: 0),
-         shadowStyle: IBSShadowStyle = .init()) {
+         shadow: IBSShadowStyle = .init()) {
         self.text = text
         self.color = color
         self.font = font
-        self.shadowStyle = shadowStyle
+        self.shadow = shadow
     }
 }

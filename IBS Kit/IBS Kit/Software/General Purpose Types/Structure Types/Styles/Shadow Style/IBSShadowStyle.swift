@@ -24,27 +24,27 @@ public struct IBSShadowStyle {
     ///
     ///
     ///
-    var color: CGColor
+    public var color: CGColor
 
     ///
     ///
     ///
-    var opacity: Float
+    public var opacity: Float
 
     ///
     ///
     ///
-    var radius: CGFloat
+    public var radius: CGFloat
 
     ///
     ///
     ///
-    var offset: CGSize
+    public var offset: CGSize
 
     ///
     ///
     ///
-    init(color: UIColor = .clear,
+    public init(color: UIColor = .clear,
          opacity: Float = 0,
          radius: CGFloat = 0,
          offset: CGSize = .init()) {

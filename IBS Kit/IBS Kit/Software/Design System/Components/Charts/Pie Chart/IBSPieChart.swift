@@ -63,10 +63,10 @@ public final class IBSPieChart: UIView {
             label.text = newValue.text
             label.textColor = newValue.color
             label.font = newValue.font
-            label.layer.shadowColor = newValue.shadowStyle.color
-            label.layer.shadowOffset = newValue.shadowStyle.offset
-            label.layer.shadowRadius = newValue.shadowStyle.radius
-            label.layer.shadowOpacity = newValue.shadowStyle.opacity
+            label.layer.shadowColor = newValue.shadow.color
+            label.layer.shadowOffset = newValue.shadow.offset
+            label.layer.shadowRadius = newValue.shadow.radius
+            label.layer.shadowOpacity = newValue.shadow.opacity
         }
     }
 
