@@ -14,6 +14,10 @@
 		B4257ACD2921139100D96BB1 /* IBSBorderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257ACC2921139100D96BB1 /* IBSBorderStyle.swift */; };
 		B4257ACF292113AE00D96BB1 /* IBSCornersStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257ACE292113AE00D96BB1 /* IBSCornersStyle.swift */; };
 		B4257AD1292113CE00D96BB1 /* IBSShadowStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AD0292113CE00D96BB1 /* IBSShadowStyle.swift */; };
+		B4257AD4292114A600D96BB1 /* IBSExtendedTabBarController.TabBarOffsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AD3292114A600D96BB1 /* IBSExtendedTabBarController.TabBarOffsets.swift */; };
+		B4257AD82921150A00D96BB1 /* IBSStackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AD72921150A00D96BB1 /* IBSStackable.swift */; };
+		B4257ADA2921151900D96BB1 /* IBSStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AD92921151900D96BB1 /* IBSStack.swift */; };
+		B4257ADE2921155C00D96BB1 /* IBSStackable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257ADD2921155C00D96BB1 /* IBSStackable+.swift */; };
 		B4D075AE291ED14200C793DE /* IBS_Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D075AD291ED14200C793DE /* IBS_Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4D075C4291ED88000C793DE /* iPod9,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075C3291ED88000C793DE /* iPod9,1.plist */; };
 		B4D075E7291ED89200C793DE /* iPhone11,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075C5291ED89100C793DE /* iPhone11,2.plist */; };
@@ -168,6 +172,10 @@
 		B4257ACC2921139100D96BB1 /* IBSBorderStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSBorderStyle.swift; sourceTree = "<group>"; };
 		B4257ACE292113AE00D96BB1 /* IBSCornersStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSCornersStyle.swift; sourceTree = "<group>"; };
 		B4257AD0292113CE00D96BB1 /* IBSShadowStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSShadowStyle.swift; sourceTree = "<group>"; };
+		B4257AD3292114A600D96BB1 /* IBSExtendedTabBarController.TabBarOffsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSExtendedTabBarController.TabBarOffsets.swift; sourceTree = "<group>"; };
+		B4257AD72921150A00D96BB1 /* IBSStackable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSStackable.swift; sourceTree = "<group>"; };
+		B4257AD92921151900D96BB1 /* IBSStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSStack.swift; sourceTree = "<group>"; };
+		B4257ADD2921155C00D96BB1 /* IBSStackable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSStackable+.swift"; sourceTree = "<group>"; };
 		B4D075AA291ED14200C793DE /* IBSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D075AD291ED14200C793DE /* IBS_Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBS_Kit.h; sourceTree = "<group>"; };
 		B4D075B7291ED4B700C793DE /* To-Do List.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "To-Do List.rtf"; sourceTree = "<group>"; };
@@ -345,6 +353,7 @@
 			children = (
 				B4257AC3292112BB00D96BB1 /* Tab Style */,
 				B4257AC4292112C100D96BB1 /* Tab Bar Style */,
+				B4257AD22921149100D96BB1 /* Tab Bar Offsets */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -387,6 +396,32 @@
 				B4257ACC2921139100D96BB1 /* IBSBorderStyle.swift */,
 			);
 			path = "Border Style";
+			sourceTree = "<group>";
+		};
+		B4257AD22921149100D96BB1 /* Tab Bar Offsets */ = {
+			isa = PBXGroup;
+			children = (
+				B4257AD3292114A600D96BB1 /* IBSExtendedTabBarController.TabBarOffsets.swift */,
+			);
+			path = "Tab Bar Offsets";
+			sourceTree = "<group>";
+		};
+		B4257AD5292114F900D96BB1 /* Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				B4257AD62921150000D96BB1 /* Stack */,
+			);
+			path = "Data Types";
+			sourceTree = "<group>";
+		};
+		B4257AD62921150000D96BB1 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				B4257AD72921150A00D96BB1 /* IBSStackable.swift */,
+				B4257ADD2921155C00D96BB1 /* IBSStackable+.swift */,
+				B4257AD92921151900D96BB1 /* IBSStack.swift */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 		B4D075A0291ED14200C793DE = {
@@ -903,6 +938,7 @@
 		B4D076FC291EFA8D00C793DE /* General Purpose Types */ = {
 			isa = PBXGroup;
 			children = (
+				B4257AD5292114F900D96BB1 /* Data Types */,
 				B4D076FD291EFA9600C793DE /* Structure Types */,
 			);
 			path = "General Purpose Types";
@@ -1178,9 +1214,12 @@
 				B4D076B5291EE2A500C793DE /* IBSDevice.Hardware.SensorAvailability.swift in Sources */,
 				B4257AC12921129C00D96BB1 /* IBSExtendedTabBarController.swift in Sources */,
 				B4D0769D291EDCAE00C793DE /* IBSDevice.OperatingSystem.swift in Sources */,
+				B4257AD4292114A600D96BB1 /* IBSExtendedTabBarController.TabBarOffsets.swift in Sources */,
+				B4257AD82921150A00D96BB1 /* IBSStackable.swift in Sources */,
 				B4D07704291EFAFF00C793DE /* IBSIndentedLabel.swift in Sources */,
 				B4D076B0291EE25400C793DE /* IBSDevice.Hardware.swift in Sources */,
 				B4D076C5291EE7FB00C793DE /* IBSApp.swift in Sources */,
+				B4257ADE2921155C00D96BB1 /* IBSStackable+.swift in Sources */,
 				B4D076F7291EF9D900C793DE /* IBSCountdownView.swift in Sources */,
 				B4D076D1291EE8C500C793DE /* IBSSDK.Version.swift in Sources */,
 				B4D076E9291EF04B00C793DE /* IBSDesignRedrawable.swift in Sources */,
@@ -1210,6 +1249,7 @@
 				B4D07700291EFAB300C793DE /* IBSTextStyle.swift in Sources */,
 				B4D07713291EFDA400C793DE /* IBSSplitSpaceController.LeftSideInitialState.swift in Sources */,
 				B4D076A4291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift in Sources */,
+				B4257ADA2921151900D96BB1 /* IBSStack.swift in Sources */,
 				B4D076EE291EF0AE00C793DE /* IBSPlayerView.swift in Sources */,
 				B4257AC82921131800D96BB1 /* IBSExtendedTabBarController.TabBarStyle.swift in Sources */,
 				B4D076D3291EE8ED00C793DE /* IBSSDKSpecificationable.swift in Sources */,
