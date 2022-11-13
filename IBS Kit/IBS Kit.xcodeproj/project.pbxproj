@@ -18,6 +18,12 @@
 		B4257AD82921150A00D96BB1 /* IBSStackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AD72921150A00D96BB1 /* IBSStackable.swift */; };
 		B4257ADA2921151900D96BB1 /* IBSStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AD92921151900D96BB1 /* IBSStack.swift */; };
 		B4257ADE2921155C00D96BB1 /* IBSStackable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257ADD2921155C00D96BB1 /* IBSStackable+.swift */; };
+		B4257AE4292116B600D96BB1 /* IBSVibrancyVisualFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AE3292116B600D96BB1 /* IBSVibrancyVisualFX.swift */; };
+		B4257AE8292116CA00D96BB1 /* IBSVibrancyVisualFX.Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AE7292116CA00D96BB1 /* IBSVibrancyVisualFX.Style.swift */; };
+		B4257AEA2921174200D96BB1 /* IBSVibrancyVisualFX+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AE92921174200D96BB1 /* IBSVibrancyVisualFX+.swift */; };
+		B4257AEE2921176D00D96BB1 /* BlurVisualFXLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AED2921176D00D96BB1 /* BlurVisualFXLayer.swift */; };
+		B4257AF02921179100D96BB1 /* IBSBlurVisualFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AEF2921179100D96BB1 /* IBSBlurVisualFX.swift */; };
+		B4257AF2292117A600D96BB1 /* IBSBlurVisualFX+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AF1292117A600D96BB1 /* IBSBlurVisualFX+.swift */; };
 		B4D075AE291ED14200C793DE /* IBS_Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D075AD291ED14200C793DE /* IBS_Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4D075C4291ED88000C793DE /* iPod9,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075C3291ED88000C793DE /* iPod9,1.plist */; };
 		B4D075E7291ED89200C793DE /* iPhone11,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075C5291ED89100C793DE /* iPhone11,2.plist */; };
@@ -176,6 +182,12 @@
 		B4257AD72921150A00D96BB1 /* IBSStackable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSStackable.swift; sourceTree = "<group>"; };
 		B4257AD92921151900D96BB1 /* IBSStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSStack.swift; sourceTree = "<group>"; };
 		B4257ADD2921155C00D96BB1 /* IBSStackable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSStackable+.swift"; sourceTree = "<group>"; };
+		B4257AE3292116B600D96BB1 /* IBSVibrancyVisualFX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSVibrancyVisualFX.swift; sourceTree = "<group>"; };
+		B4257AE7292116CA00D96BB1 /* IBSVibrancyVisualFX.Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSVibrancyVisualFX.Style.swift; sourceTree = "<group>"; };
+		B4257AE92921174200D96BB1 /* IBSVibrancyVisualFX+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSVibrancyVisualFX+.swift"; sourceTree = "<group>"; };
+		B4257AED2921176D00D96BB1 /* BlurVisualFXLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurVisualFXLayer.swift; sourceTree = "<group>"; };
+		B4257AEF2921179100D96BB1 /* IBSBlurVisualFX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSBlurVisualFX.swift; sourceTree = "<group>"; };
+		B4257AF1292117A600D96BB1 /* IBSBlurVisualFX+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSBlurVisualFX+.swift"; sourceTree = "<group>"; };
 		B4D075AA291ED14200C793DE /* IBSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D075AD291ED14200C793DE /* IBS_Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBS_Kit.h; sourceTree = "<group>"; };
 		B4D075B7291ED4B700C793DE /* To-Do List.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "To-Do List.rtf"; sourceTree = "<group>"; };
@@ -422,6 +434,73 @@
 				B4257AD92921151900D96BB1 /* IBSStack.swift */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		B4257ADF2921163600D96BB1 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		B4257AE02921163E00D96BB1 /* Progress Bars */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Progress Bars";
+			sourceTree = "<group>";
+		};
+		B4257AE12921165400D96BB1 /* Visual FXs */ = {
+			isa = PBXGroup;
+			children = (
+				B4257AEB2921175500D96BB1 /* Blur Visual FX */,
+				B4257AE22921169D00D96BB1 /* Vibrancy Visual FX */,
+			);
+			path = "Visual FXs";
+			sourceTree = "<group>";
+		};
+		B4257AE22921169D00D96BB1 /* Vibrancy Visual FX */ = {
+			isa = PBXGroup;
+			children = (
+				B4257AE5292116B800D96BB1 /* Extensions */,
+				B4257AE3292116B600D96BB1 /* IBSVibrancyVisualFX.swift */,
+				B4257AE92921174200D96BB1 /* IBSVibrancyVisualFX+.swift */,
+			);
+			path = "Vibrancy Visual FX";
+			sourceTree = "<group>";
+		};
+		B4257AE5292116B800D96BB1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4257AE6292116BD00D96BB1 /* Style */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4257AE6292116BD00D96BB1 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				B4257AE7292116CA00D96BB1 /* IBSVibrancyVisualFX.Style.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		B4257AEB2921175500D96BB1 /* Blur Visual FX */ = {
+			isa = PBXGroup;
+			children = (
+				B4257AEC2921176200D96BB1 /* Blur Visual FX Layer */,
+				B4257AEF2921179100D96BB1 /* IBSBlurVisualFX.swift */,
+				B4257AF1292117A600D96BB1 /* IBSBlurVisualFX+.swift */,
+			);
+			path = "Blur Visual FX";
+			sourceTree = "<group>";
+		};
+		B4257AEC2921176200D96BB1 /* Blur Visual FX Layer */ = {
+			isa = PBXGroup;
+			children = (
+				B4257AED2921176D00D96BB1 /* BlurVisualFXLayer.swift */,
+			);
+			path = "Blur Visual FX Layer";
 			sourceTree = "<group>";
 		};
 		B4D075A0291ED14200C793DE = {
@@ -901,8 +980,11 @@
 		B4D076EA291EF07900C793DE /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B4257ADF2921163600D96BB1 /* Charts */,
 				B4D07701291EFAEF00C793DE /* Labels */,
 				B4D076EB291EF09800C793DE /* Views */,
+				B4257AE02921163E00D96BB1 /* Progress Bars */,
+				B4257AE12921165400D96BB1 /* Visual FXs */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -1225,8 +1307,10 @@
 				B4D076E9291EF04B00C793DE /* IBSDesignRedrawable.swift in Sources */,
 				B4D07707291EFB3200C793DE /* IBSPadding.swift in Sources */,
 				B4257ABF2921126F00D96BB1 /* IBSExtendedTabBarControllerPresentable.swift in Sources */,
+				B4257AEA2921174200D96BB1 /* IBSVibrancyVisualFX+.swift in Sources */,
 				B4D076FB291EFA7000C793DE /* IBSCountdownViewDelegate.swift in Sources */,
 				B4D07688291ED8DA00C793DE /* IBSDevice.swift in Sources */,
+				B4257AEE2921176D00D96BB1 /* BlurVisualFXLayer.swift in Sources */,
 				B4D076C3291EE7D700C793DE /* IBSAppSpecificationable.swift in Sources */,
 				B4D076CB291EE85900C793DE /* IBSApp.Version.swift in Sources */,
 				B4D076B9291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift in Sources */,
@@ -1245,12 +1329,14 @@
 				B4D076E1291EEF3000C793DE /* IBSHaptic.FeedbackType.swift in Sources */,
 				B4D0770E291EFD5600C793DE /* IBSSplitSpaceController.swift in Sources */,
 				B4D0769B291EDAE000C793DE /* IBSDevice.Device.Name.swift in Sources */,
+				B4257AF2292117A600D96BB1 /* IBSBlurVisualFX+.swift in Sources */,
 				B4D076A8291EDE5400C793DE /* IBSDevice.Specification.swift in Sources */,
 				B4D07700291EFAB300C793DE /* IBSTextStyle.swift in Sources */,
 				B4D07713291EFDA400C793DE /* IBSSplitSpaceController.LeftSideInitialState.swift in Sources */,
 				B4D076A4291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift in Sources */,
 				B4257ADA2921151900D96BB1 /* IBSStack.swift in Sources */,
 				B4D076EE291EF0AE00C793DE /* IBSPlayerView.swift in Sources */,
+				B4257AE4292116B600D96BB1 /* IBSVibrancyVisualFX.swift in Sources */,
 				B4257AC82921131800D96BB1 /* IBSExtendedTabBarController.TabBarStyle.swift in Sources */,
 				B4D076D3291EE8ED00C793DE /* IBSSDKSpecificationable.swift in Sources */,
 				B4D076C9291EE83200C793DE /* IBSApp.Build.swift in Sources */,
@@ -1268,6 +1354,8 @@
 				B4D076DB291EEEE000C793DE /* IBSHapticExecutable.swift in Sources */,
 				B4D076AD291EE15800C793DE /* IBSDevice.Software.Type.swift in Sources */,
 				B4D076D5291EE91200C793DE /* IBSSDK.swift in Sources */,
+				B4257AE8292116CA00D96BB1 /* IBSVibrancyVisualFX.Style.swift in Sources */,
+				B4257AF02921179100D96BB1 /* IBSBlurVisualFX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
