@@ -1,5 +1,5 @@
 //
-//  IBSTextStyle.swift
+//  IBSTextAttributes.swift
 //  IBS Kit
 //
 //  Created by Dimka Novikov on 11.11.2022.
@@ -13,37 +13,44 @@ import UIKit
 
 
 
-// MARK: - IBSTextStyle
+// MARK: - IBSTextAttributes
 
 ///
 ///
 ///
 @available(iOS 13.0, *)
-public struct IBSTextStyle {
+public struct IBSTextAttributes {
 
     ///
     ///
     ///
-    var text: String
+    public var text: String
 
     ///
     ///
     ///
-    var color: UIColor
+    public var color: UIColor
 
     ///
     ///
     ///
-    var font: UIFont
+    public  var font: UIFont
+    
+    ///
+    ///
+    ///
+    public var shadowStyle: IBSShadowStyle
 
     ///
     ///
     ///
     init(text: String = "",
          color: UIColor = .clear,
-         font: UIFont = .systemFont(ofSize: 0)) {
+         font: UIFont = .systemFont(ofSize: 0),
+         shadowStyle: IBSShadowStyle = .init()) {
         self.text = text
         self.color = color
         self.font = font
+        self.shadowStyle = shadowStyle
     }
 }

@@ -31,7 +31,7 @@ public final class IBSCountdownView: UIView {
     ///
     ///
     ///
-    public var countdownStyle: IBSTextStyle = .init() {
+    public var countdownStyle: IBSTextAttributes = .init() {
         willSet {
             countdownLabel.textColor = newValue.color
             countdownLabel.font = newValue.font
@@ -41,7 +41,7 @@ public final class IBSCountdownView: UIView {
     ///
     ///
     ///
-    public var captionStyle: IBSTextStyle = .init() {
+    public var captionStyle: IBSTextAttributes = .init() {
         willSet {
             captionLabel.text = newValue.text
             captionLabel.textColor = newValue.color

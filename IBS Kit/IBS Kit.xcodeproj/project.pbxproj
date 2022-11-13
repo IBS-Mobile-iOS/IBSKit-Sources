@@ -24,6 +24,27 @@
 		B4257AEE2921176D00D96BB1 /* BlurVisualFXLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AED2921176D00D96BB1 /* BlurVisualFXLayer.swift */; };
 		B4257AF02921179100D96BB1 /* IBSBlurVisualFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AEF2921179100D96BB1 /* IBSBlurVisualFX.swift */; };
 		B4257AF2292117A600D96BB1 /* IBSBlurVisualFX+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AF1292117A600D96BB1 /* IBSBlurVisualFX+.swift */; };
+		B4257AF6292118B500D96BB1 /* CircleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AF5292118B500D96BB1 /* CircleChartView.swift */; };
+		B4257AF82921196D00D96BB1 /* CircleChartView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AF72921196D00D96BB1 /* CircleChartView+.swift */; };
+		B4257AFA29211A2F00D96BB1 /* IBSPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257AF929211A2F00D96BB1 /* IBSPieChart.swift */; };
+		B4257B0329211C5600D96BB1 /* IBSPieChart.SegmentStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B0229211C5600D96BB1 /* IBSPieChart.SegmentStyle.swift */; };
+		B4257B0629211C9B00D96BB1 /* IBSPieChart.PatternDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B0529211C9B00D96BB1 /* IBSPieChart.PatternDirection.swift */; };
+		B4257B0929211CD600D96BB1 /* IBSPieChart.Total.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B0829211CD600D96BB1 /* IBSPieChart.Total.swift */; };
+		B4257B0C29211D0D00D96BB1 /* IBSPieChart.Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B0B29211D0D00D96BB1 /* IBSPieChart.Segment.swift */; };
+		B4257B1129211D5D00D96BB1 /* IBSPieChart.Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B1029211D5D00D96BB1 /* IBSPieChart.Pattern.swift */; };
+		B4257B1329211E0200D96BB1 /* IBSPieChart+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B1229211E0200D96BB1 /* IBSPieChart+.swift */; };
+		B4257B1729211E7800D96BB1 /* DonutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B1629211E7800D96BB1 /* DonutChartView.swift */; };
+		B4257B1929211E9700D96BB1 /* DonutTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B1829211E9700D96BB1 /* DonutTotalView.swift */; };
+		B4257B1B29211EC400D96BB1 /* IBSDonutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B1A29211EC400D96BB1 /* IBSDonutChart.swift */; };
+		B4257B1D29211F0200D96BB1 /* IBSDonutChart+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B1C29211F0200D96BB1 /* IBSDonutChart+.swift */; };
+		B4257B1F29211FD100D96BB1 /* IBSProgressBarUpdatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B1E29211FD100D96BB1 /* IBSProgressBarUpdatable.swift */; };
+		B4257B2129211FE600D96BB1 /* IBSProgressBarSyncStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B2029211FE600D96BB1 /* IBSProgressBarSyncStatus.swift */; };
+		B4257B252921203400D96BB1 /* IBSRingProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B242921203400D96BB1 /* IBSRingProgressBar.swift */; };
+		B4257B27292120C400D96BB1 /* IBSRingProgressBar+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B26292120C400D96BB1 /* IBSRingProgressBar+.swift */; };
+		B4257B292921211800D96BB1 /* IBSLineProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B282921211800D96BB1 /* IBSLineProgressBar.swift */; };
+		B4257B2B2921220400D96BB1 /* IBSLineProgressBar+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B2A2921220400D96BB1 /* IBSLineProgressBar+.swift */; };
+		B4257B30292122AC00D96BB1 /* IBSLineProgressBar.CapStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B2F292122AC00D96BB1 /* IBSLineProgressBar.CapStyle.swift */; };
+		B4257B32292122EE00D96BB1 /* IBSLineProgressBar.Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4257B31292122EE00D96BB1 /* IBSLineProgressBar.Colors.swift */; };
 		B4D075AE291ED14200C793DE /* IBS_Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D075AD291ED14200C793DE /* IBS_Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4D075C4291ED88000C793DE /* iPod9,1.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075C3291ED88000C793DE /* iPod9,1.plist */; };
 		B4D075E7291ED89200C793DE /* iPhone11,2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4D075C5291ED89100C793DE /* iPhone11,2.plist */; };
@@ -161,7 +182,7 @@
 		B4D076F7291EF9D900C793DE /* IBSCountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076F6291EF9D900C793DE /* IBSCountdownView.swift */; };
 		B4D076F9291EFA4600C793DE /* IBSCountdownView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076F8291EFA4600C793DE /* IBSCountdownView+.swift */; };
 		B4D076FB291EFA7000C793DE /* IBSCountdownViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076FA291EFA7000C793DE /* IBSCountdownViewDelegate.swift */; };
-		B4D07700291EFAB300C793DE /* IBSTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076FF291EFAB300C793DE /* IBSTextStyle.swift */; };
+		B4D07700291EFAB300C793DE /* IBSTextAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D076FF291EFAB300C793DE /* IBSTextAttributes.swift */; };
 		B4D07704291EFAFF00C793DE /* IBSIndentedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D07703291EFAFF00C793DE /* IBSIndentedLabel.swift */; };
 		B4D07707291EFB3200C793DE /* IBSPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D07706291EFB3200C793DE /* IBSPadding.swift */; };
 		B4D0770C291EFD1A00C793DE /* IBSSplitSpaceControllerPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0770B291EFD1A00C793DE /* IBSSplitSpaceControllerPresentable.swift */; };
@@ -188,6 +209,27 @@
 		B4257AED2921176D00D96BB1 /* BlurVisualFXLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurVisualFXLayer.swift; sourceTree = "<group>"; };
 		B4257AEF2921179100D96BB1 /* IBSBlurVisualFX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSBlurVisualFX.swift; sourceTree = "<group>"; };
 		B4257AF1292117A600D96BB1 /* IBSBlurVisualFX+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSBlurVisualFX+.swift"; sourceTree = "<group>"; };
+		B4257AF5292118B500D96BB1 /* CircleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleChartView.swift; sourceTree = "<group>"; };
+		B4257AF72921196D00D96BB1 /* CircleChartView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CircleChartView+.swift"; sourceTree = "<group>"; };
+		B4257AF929211A2F00D96BB1 /* IBSPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSPieChart.swift; sourceTree = "<group>"; };
+		B4257B0229211C5600D96BB1 /* IBSPieChart.SegmentStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSPieChart.SegmentStyle.swift; sourceTree = "<group>"; };
+		B4257B0529211C9B00D96BB1 /* IBSPieChart.PatternDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSPieChart.PatternDirection.swift; sourceTree = "<group>"; };
+		B4257B0829211CD600D96BB1 /* IBSPieChart.Total.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSPieChart.Total.swift; sourceTree = "<group>"; };
+		B4257B0B29211D0D00D96BB1 /* IBSPieChart.Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSPieChart.Segment.swift; sourceTree = "<group>"; };
+		B4257B1029211D5D00D96BB1 /* IBSPieChart.Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSPieChart.Pattern.swift; sourceTree = "<group>"; };
+		B4257B1229211E0200D96BB1 /* IBSPieChart+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSPieChart+.swift"; sourceTree = "<group>"; };
+		B4257B1629211E7800D96BB1 /* DonutChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChartView.swift; sourceTree = "<group>"; };
+		B4257B1829211E9700D96BB1 /* DonutTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutTotalView.swift; sourceTree = "<group>"; };
+		B4257B1A29211EC400D96BB1 /* IBSDonutChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSDonutChart.swift; sourceTree = "<group>"; };
+		B4257B1C29211F0200D96BB1 /* IBSDonutChart+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSDonutChart+.swift"; sourceTree = "<group>"; };
+		B4257B1E29211FD100D96BB1 /* IBSProgressBarUpdatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSProgressBarUpdatable.swift; sourceTree = "<group>"; };
+		B4257B2029211FE600D96BB1 /* IBSProgressBarSyncStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSProgressBarSyncStatus.swift; sourceTree = "<group>"; };
+		B4257B242921203400D96BB1 /* IBSRingProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSRingProgressBar.swift; sourceTree = "<group>"; };
+		B4257B26292120C400D96BB1 /* IBSRingProgressBar+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSRingProgressBar+.swift"; sourceTree = "<group>"; };
+		B4257B282921211800D96BB1 /* IBSLineProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSLineProgressBar.swift; sourceTree = "<group>"; };
+		B4257B2A2921220400D96BB1 /* IBSLineProgressBar+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSLineProgressBar+.swift"; sourceTree = "<group>"; };
+		B4257B2F292122AC00D96BB1 /* IBSLineProgressBar.CapStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSLineProgressBar.CapStyle.swift; sourceTree = "<group>"; };
+		B4257B31292122EE00D96BB1 /* IBSLineProgressBar.Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSLineProgressBar.Colors.swift; sourceTree = "<group>"; };
 		B4D075AA291ED14200C793DE /* IBSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D075AD291ED14200C793DE /* IBS_Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBS_Kit.h; sourceTree = "<group>"; };
 		B4D075B7291ED4B700C793DE /* To-Do List.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "To-Do List.rtf"; sourceTree = "<group>"; };
@@ -330,7 +372,7 @@
 		B4D076F6291EF9D900C793DE /* IBSCountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSCountdownView.swift; sourceTree = "<group>"; };
 		B4D076F8291EFA4600C793DE /* IBSCountdownView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IBSCountdownView+.swift"; sourceTree = "<group>"; };
 		B4D076FA291EFA7000C793DE /* IBSCountdownViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSCountdownViewDelegate.swift; sourceTree = "<group>"; };
-		B4D076FF291EFAB300C793DE /* IBSTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSTextStyle.swift; sourceTree = "<group>"; };
+		B4D076FF291EFAB300C793DE /* IBSTextAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSTextAttributes.swift; sourceTree = "<group>"; };
 		B4D07703291EFAFF00C793DE /* IBSIndentedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSIndentedLabel.swift; sourceTree = "<group>"; };
 		B4D07706291EFB3200C793DE /* IBSPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSPadding.swift; sourceTree = "<group>"; };
 		B4D0770B291EFD1A00C793DE /* IBSSplitSpaceControllerPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBSSplitSpaceControllerPresentable.swift; sourceTree = "<group>"; };
@@ -439,6 +481,8 @@
 		B4257ADF2921163600D96BB1 /* Charts */ = {
 			isa = PBXGroup;
 			children = (
+				B4257B1429211E5F00D96BB1 /* Donut Chart */,
+				B4257AF32921188500D96BB1 /* Pie Chart */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -446,6 +490,10 @@
 		B4257AE02921163E00D96BB1 /* Progress Bars */ = {
 			isa = PBXGroup;
 			children = (
+				B4257B1E29211FD100D96BB1 /* IBSProgressBarUpdatable.swift */,
+				B4257B2029211FE600D96BB1 /* IBSProgressBarSyncStatus.swift */,
+				B4257B2329211FF200D96BB1 /* Line Progress Bar */,
+				B4257B2229211FF000D96BB1 /* Ring Progress Bar */,
 			);
 			path = "Progress Bars";
 			sourceTree = "<group>";
@@ -501,6 +549,159 @@
 				B4257AED2921176D00D96BB1 /* BlurVisualFXLayer.swift */,
 			);
 			path = "Blur Visual FX Layer";
+			sourceTree = "<group>";
+		};
+		B4257AF32921188500D96BB1 /* Pie Chart */ = {
+			isa = PBXGroup;
+			children = (
+				B4257AF42921189A00D96BB1 /* Circle Chart */,
+				B4257B0029211C3800D96BB1 /* Extensions */,
+				B4257AF929211A2F00D96BB1 /* IBSPieChart.swift */,
+				B4257B1229211E0200D96BB1 /* IBSPieChart+.swift */,
+			);
+			path = "Pie Chart";
+			sourceTree = "<group>";
+		};
+		B4257AF42921189A00D96BB1 /* Circle Chart */ = {
+			isa = PBXGroup;
+			children = (
+				B4257AF5292118B500D96BB1 /* CircleChartView.swift */,
+				B4257AF72921196D00D96BB1 /* CircleChartView+.swift */,
+			);
+			path = "Circle Chart";
+			sourceTree = "<group>";
+		};
+		B4257AFC29211A9200D96BB1 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				B4257ACB2921137300D96BB1 /* Border Style */,
+				B4257AC92921135D00D96BB1 /* Corners Style */,
+				B4257ACA2921136700D96BB1 /* Shadow Style */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		B4257AFF29211B9D00D96BB1 /* Attributes */ = {
+			isa = PBXGroup;
+			children = (
+				B4D076FE291EFAA400C793DE /* Text Attributes */,
+			);
+			path = Attributes;
+			sourceTree = "<group>";
+		};
+		B4257B0029211C3800D96BB1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B0D29211D3C00D96BB1 /* Pattern */,
+				B4257B0129211C4800D96BB1 /* Segment Style */,
+				B4257B0429211C8D00D96BB1 /* Pattern Direction */,
+				B4257B0729211CC700D96BB1 /* Total */,
+				B4257B0A29211D0100D96BB1 /* Segment */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4257B0129211C4800D96BB1 /* Segment Style */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B0229211C5600D96BB1 /* IBSPieChart.SegmentStyle.swift */,
+			);
+			path = "Segment Style";
+			sourceTree = "<group>";
+		};
+		B4257B0429211C8D00D96BB1 /* Pattern Direction */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B0529211C9B00D96BB1 /* IBSPieChart.PatternDirection.swift */,
+			);
+			path = "Pattern Direction";
+			sourceTree = "<group>";
+		};
+		B4257B0729211CC700D96BB1 /* Total */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B0829211CD600D96BB1 /* IBSPieChart.Total.swift */,
+			);
+			path = Total;
+			sourceTree = "<group>";
+		};
+		B4257B0A29211D0100D96BB1 /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B0B29211D0D00D96BB1 /* IBSPieChart.Segment.swift */,
+			);
+			path = Segment;
+			sourceTree = "<group>";
+		};
+		B4257B0D29211D3C00D96BB1 /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B1029211D5D00D96BB1 /* IBSPieChart.Pattern.swift */,
+			);
+			path = Pattern;
+			sourceTree = "<group>";
+		};
+		B4257B1429211E5F00D96BB1 /* Donut Chart */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B1529211E7000D96BB1 /* Donut Chart Views */,
+				B4257B1A29211EC400D96BB1 /* IBSDonutChart.swift */,
+				B4257B1C29211F0200D96BB1 /* IBSDonutChart+.swift */,
+			);
+			path = "Donut Chart";
+			sourceTree = "<group>";
+		};
+		B4257B1529211E7000D96BB1 /* Donut Chart Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B1629211E7800D96BB1 /* DonutChartView.swift */,
+				B4257B1829211E9700D96BB1 /* DonutTotalView.swift */,
+			);
+			path = "Donut Chart Views";
+			sourceTree = "<group>";
+		};
+		B4257B2229211FF000D96BB1 /* Ring Progress Bar */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B242921203400D96BB1 /* IBSRingProgressBar.swift */,
+				B4257B26292120C400D96BB1 /* IBSRingProgressBar+.swift */,
+			);
+			path = "Ring Progress Bar";
+			sourceTree = "<group>";
+		};
+		B4257B2329211FF200D96BB1 /* Line Progress Bar */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B2C2921228400D96BB1 /* Extentions */,
+				B4257B282921211800D96BB1 /* IBSLineProgressBar.swift */,
+				B4257B2A2921220400D96BB1 /* IBSLineProgressBar+.swift */,
+			);
+			path = "Line Progress Bar";
+			sourceTree = "<group>";
+		};
+		B4257B2C2921228400D96BB1 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B2E2921229000D96BB1 /* Cap Style */,
+				B4257B2D2921228D00D96BB1 /* Colors */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		B4257B2D2921228D00D96BB1 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B31292122EE00D96BB1 /* IBSLineProgressBar.Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		B4257B2E2921229000D96BB1 /* Cap Style */ = {
+			isa = PBXGroup;
+			children = (
+				B4257B2F292122AC00D96BB1 /* IBSLineProgressBar.CapStyle.swift */,
+			);
+			path = "Cap Style";
 			sourceTree = "<group>";
 		};
 		B4D075A0291ED14200C793DE = {
@@ -1029,21 +1230,19 @@
 		B4D076FD291EFA9600C793DE /* Structure Types */ = {
 			isa = PBXGroup;
 			children = (
-				B4257ACB2921137300D96BB1 /* Border Style */,
-				B4257AC92921135D00D96BB1 /* Corners Style */,
+				B4257AFF29211B9D00D96BB1 /* Attributes */,
+				B4257AFC29211A9200D96BB1 /* Styles */,
 				B4D07705291EFB2A00C793DE /* Padding */,
-				B4257ACA2921136700D96BB1 /* Shadow Style */,
-				B4D076FE291EFAA400C793DE /* Text Style */,
 			);
 			path = "Structure Types";
 			sourceTree = "<group>";
 		};
-		B4D076FE291EFAA400C793DE /* Text Style */ = {
+		B4D076FE291EFAA400C793DE /* Text Attributes */ = {
 			isa = PBXGroup;
 			children = (
-				B4D076FF291EFAB300C793DE /* IBSTextStyle.swift */,
+				B4D076FF291EFAB300C793DE /* IBSTextAttributes.swift */,
 			);
-			path = "Text Style";
+			path = "Text Attributes";
 			sourceTree = "<group>";
 		};
 		B4D07701291EFAEF00C793DE /* Labels */ = {
@@ -1293,26 +1492,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4257B0329211C5600D96BB1 /* IBSPieChart.SegmentStyle.swift in Sources */,
 				B4D076B5291EE2A500C793DE /* IBSDevice.Hardware.SensorAvailability.swift in Sources */,
+				B4257B2B2921220400D96BB1 /* IBSLineProgressBar+.swift in Sources */,
 				B4257AC12921129C00D96BB1 /* IBSExtendedTabBarController.swift in Sources */,
 				B4D0769D291EDCAE00C793DE /* IBSDevice.OperatingSystem.swift in Sources */,
 				B4257AD4292114A600D96BB1 /* IBSExtendedTabBarController.TabBarOffsets.swift in Sources */,
+				B4257B2129211FE600D96BB1 /* IBSProgressBarSyncStatus.swift in Sources */,
 				B4257AD82921150A00D96BB1 /* IBSStackable.swift in Sources */,
 				B4D07704291EFAFF00C793DE /* IBSIndentedLabel.swift in Sources */,
 				B4D076B0291EE25400C793DE /* IBSDevice.Hardware.swift in Sources */,
+				B4257B1B29211EC400D96BB1 /* IBSDonutChart.swift in Sources */,
 				B4D076C5291EE7FB00C793DE /* IBSApp.swift in Sources */,
+				B4257B252921203400D96BB1 /* IBSRingProgressBar.swift in Sources */,
 				B4257ADE2921155C00D96BB1 /* IBSStackable+.swift in Sources */,
 				B4D076F7291EF9D900C793DE /* IBSCountdownView.swift in Sources */,
 				B4D076D1291EE8C500C793DE /* IBSSDK.Version.swift in Sources */,
 				B4D076E9291EF04B00C793DE /* IBSDesignRedrawable.swift in Sources */,
 				B4D07707291EFB3200C793DE /* IBSPadding.swift in Sources */,
 				B4257ABF2921126F00D96BB1 /* IBSExtendedTabBarControllerPresentable.swift in Sources */,
+				B4257AFA29211A2F00D96BB1 /* IBSPieChart.swift in Sources */,
+				B4257B292921211800D96BB1 /* IBSLineProgressBar.swift in Sources */,
 				B4257AEA2921174200D96BB1 /* IBSVibrancyVisualFX+.swift in Sources */,
+				B4257AF6292118B500D96BB1 /* CircleChartView.swift in Sources */,
 				B4D076FB291EFA7000C793DE /* IBSCountdownViewDelegate.swift in Sources */,
 				B4D07688291ED8DA00C793DE /* IBSDevice.swift in Sources */,
+				B4257B1D29211F0200D96BB1 /* IBSDonutChart+.swift in Sources */,
+				B4257AF82921196D00D96BB1 /* CircleChartView+.swift in Sources */,
 				B4257AEE2921176D00D96BB1 /* BlurVisualFXLayer.swift in Sources */,
 				B4D076C3291EE7D700C793DE /* IBSAppSpecificationable.swift in Sources */,
 				B4D076CB291EE85900C793DE /* IBSApp.Version.swift in Sources */,
+				B4257B0C29211D0D00D96BB1 /* IBSPieChart.Segment.swift in Sources */,
 				B4D076B9291EE2BF00C793DE /* IBSDevice.Hardware.IMU.swift in Sources */,
 				B4D076AA291EE12600C793DE /* IBSDevice.Software.swift in Sources */,
 				B4D076A6291EDE0500C793DE /* IBSDevice.OperatingSystem.Version.swift in Sources */,
@@ -1321,21 +1531,27 @@
 				B4D076CF291EE8BE00C793DE /* IBSSDK.Build.swift in Sources */,
 				B4D076F0291EF0F300C793DE /* IBSPlayerView+.swift in Sources */,
 				B4D076BB291EE2CA00C793DE /* IBSDevice.Hardware.Network.swift in Sources */,
+				B4257B0929211CD600D96BB1 /* IBSPieChart.Total.swift in Sources */,
 				B4D076B7291EE2B500C793DE /* IBSDevice.Hardware.Connectivity.swift in Sources */,
+				B4257B30292122AC00D96BB1 /* IBSLineProgressBar.CapStyle.swift in Sources */,
 				B4D076F2291EF13700C793DE /* IBSVideoPlayer.swift in Sources */,
 				B4D076DD291EEEE600C793DE /* IBSHaptic.swift in Sources */,
 				B4D07715291EFDCF00C793DE /* IBSSplitSpaceController.LeftSideSupportedState.swift in Sources */,
 				B4D076A2291EDCF200C793DE /* IBSDevice.OperatingSystem.`Type`.swift in Sources */,
+				B4257B0629211C9B00D96BB1 /* IBSPieChart.PatternDirection.swift in Sources */,
+				B4257B1929211E9700D96BB1 /* DonutTotalView.swift in Sources */,
 				B4D076E1291EEF3000C793DE /* IBSHaptic.FeedbackType.swift in Sources */,
 				B4D0770E291EFD5600C793DE /* IBSSplitSpaceController.swift in Sources */,
 				B4D0769B291EDAE000C793DE /* IBSDevice.Device.Name.swift in Sources */,
 				B4257AF2292117A600D96BB1 /* IBSBlurVisualFX+.swift in Sources */,
 				B4D076A8291EDE5400C793DE /* IBSDevice.Specification.swift in Sources */,
-				B4D07700291EFAB300C793DE /* IBSTextStyle.swift in Sources */,
+				B4D07700291EFAB300C793DE /* IBSTextAttributes.swift in Sources */,
 				B4D07713291EFDA400C793DE /* IBSSplitSpaceController.LeftSideInitialState.swift in Sources */,
 				B4D076A4291EDDE600C793DE /* IBSDevice.OperatingSystem.Name.swift in Sources */,
 				B4257ADA2921151900D96BB1 /* IBSStack.swift in Sources */,
+				B4257B1129211D5D00D96BB1 /* IBSPieChart.Pattern.swift in Sources */,
 				B4D076EE291EF0AE00C793DE /* IBSPlayerView.swift in Sources */,
+				B4257B1729211E7800D96BB1 /* DonutChartView.swift in Sources */,
 				B4257AE4292116B600D96BB1 /* IBSVibrancyVisualFX.swift in Sources */,
 				B4257AC82921131800D96BB1 /* IBSExtendedTabBarController.TabBarStyle.swift in Sources */,
 				B4D076D3291EE8ED00C793DE /* IBSSDKSpecificationable.swift in Sources */,
@@ -1343,8 +1559,11 @@
 				B4D076BE291EE44800C793DE /* IBSLivePreview.swift in Sources */,
 				B4D076F9291EFA4600C793DE /* IBSCountdownView+.swift in Sources */,
 				B4D076F4291EF17600C793DE /* IBSVideoPlayerDelegate.swift in Sources */,
+				B4257B1329211E0200D96BB1 /* IBSPieChart+.swift in Sources */,
+				B4257B32292122EE00D96BB1 /* IBSLineProgressBar.Colors.swift in Sources */,
 				B4257AC6292112DA00D96BB1 /* IBSExtendedTabBarController.TabStyle.swift in Sources */,
 				B4257ACF292113AE00D96BB1 /* IBSCornersStyle.swift in Sources */,
+				B4257B1F29211FD100D96BB1 /* IBSProgressBarUpdatable.swift in Sources */,
 				B4D07699291EDAD400C793DE /* IBSDevice.Device.Model.swift in Sources */,
 				B4D07686291ED8C200C793DE /* IBSDeviceSpecificationable.swift in Sources */,
 				B4257AD1292113CE00D96BB1 /* IBSShadowStyle.swift in Sources */,
@@ -1356,6 +1575,7 @@
 				B4D076D5291EE91200C793DE /* IBSSDK.swift in Sources */,
 				B4257AE8292116CA00D96BB1 /* IBSVibrancyVisualFX.Style.swift in Sources */,
 				B4257AF02921179100D96BB1 /* IBSBlurVisualFX.swift in Sources */,
+				B4257B27292120C400D96BB1 /* IBSRingProgressBar+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

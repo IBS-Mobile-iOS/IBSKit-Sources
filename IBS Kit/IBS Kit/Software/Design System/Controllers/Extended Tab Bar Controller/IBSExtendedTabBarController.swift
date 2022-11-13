@@ -19,7 +19,7 @@ import UIKit
 ///
 ///
 @available(iOS 13.0, *)
-open class IBSExtendedTabBarController: UIViewController, IBSExtendedTabBarControllerPresentable {
+class IBSExtendedTabBarController: UIViewController, IBSExtendedTabBarControllerPresentable {
 
     // MARK: - Public properties
 

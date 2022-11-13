@@ -19,7 +19,7 @@ import Foundation
 ///
 ///
 @available(iOS 13.0, *)
-public protocol IBSExtendedTabBarControllerPresentable: AnyObject {
+protocol IBSExtendedTabBarControllerPresentable: AnyObject {
 
     // MARK: - Public properties
 
