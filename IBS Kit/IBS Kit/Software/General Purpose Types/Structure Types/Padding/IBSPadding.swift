@@ -24,27 +24,27 @@ public struct IBSPadding {
     ///
     ///
     ///
-    var top: CGFloat
+    public var top: CGFloat
 
     ///
     ///
     ///
-    var left: CGFloat
+    public var left: CGFloat
 
     ///
     ///
     ///
-    var right: CGFloat
+    public var right: CGFloat
 
     ///
     ///
     ///
-    var bottom: CGFloat
+    public var bottom: CGFloat
 
     ///
     ///
     ///
-    init(top: CGFloat = 0,
+    public init(top: CGFloat = 0,
          left: CGFloat = 0,
          right: CGFloat = 0,
          bottom: CGFloat = 0) {

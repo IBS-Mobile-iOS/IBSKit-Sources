@@ -707,7 +707,7 @@
 		B4D075A0291ED14200C793DE = {
 			isa = PBXGroup;
 			children = (
-				B4D075B6291ED45200C793DE /* To-Do LIst */,
+				B4D075B6291ED45200C793DE /* To-Do List */,
 				B4D075AC291ED14200C793DE /* IBS Kit */,
 				B4D075AB291ED14200C793DE /* Products */,
 			);
@@ -734,12 +734,12 @@
 			path = "IBS Kit";
 			sourceTree = "<group>";
 		};
-		B4D075B6291ED45200C793DE /* To-Do LIst */ = {
+		B4D075B6291ED45200C793DE /* To-Do List */ = {
 			isa = PBXGroup;
 			children = (
 				B4D075B7291ED4B700C793DE /* To-Do List.rtf */,
 			);
-			path = "To-Do LIst";
+			path = "To-Do List";
 			sourceTree = "<group>";
 		};
 		B4D075BB291ED79600C793DE /* XCFramework Build Shell Scripts */ = {
@@ -1709,7 +1709,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 13;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = E2D8MG55MH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1724,7 +1724,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ibs.ibskit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -1743,7 +1743,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 13;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = E2D8MG55MH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1758,7 +1758,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ibs.ibskit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

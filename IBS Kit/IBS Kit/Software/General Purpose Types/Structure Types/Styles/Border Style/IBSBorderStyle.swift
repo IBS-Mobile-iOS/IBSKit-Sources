@@ -24,17 +24,17 @@ public struct IBSBorderStyle {
     ///
     ///
     ///
-    var color: CGColor
+    public var color: CGColor
 
     ///
     ///
     ///
-    var width: CGFloat
+    public var width: CGFloat
 
     ///
     ///
     ///
-    init(color: UIColor = .clear,
+    public init(color: UIColor = .clear,
          width: CGFloat = 0) {
         self.color = color.cgColor
         self.width = width
