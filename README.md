@@ -18,8 +18,8 @@
 
 ### Current Release:
 **Status:** `Stable`  
-**Version:** `1.1.1`  
-**Build:** `13`
+**Version:** `1.1.2`  
+**Build:** `11`
 
 #### IBSKit is an Xcode Fat Framework written in [Swift 5](https://github.com/apple/swift).
 

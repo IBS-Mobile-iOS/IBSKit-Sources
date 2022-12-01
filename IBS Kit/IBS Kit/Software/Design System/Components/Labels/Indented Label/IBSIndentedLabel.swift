@@ -26,7 +26,7 @@ public final class IBSIndentedLabel: UILabel {
     ///
     ///
     ///
-    var padding: IBSPadding = .init() {
+    public var padding: IBSPadding = .init() {
         didSet {
             invalidateIntrinsicContentSize()
         }
